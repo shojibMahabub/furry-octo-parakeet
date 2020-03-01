@@ -1,0 +1,1774 @@
+[
+{
+	"id": 1,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 2,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 3,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 4,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 5,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 6,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 7,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 8,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 9,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 10,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 11,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 12,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 13,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 14,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 15,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 16,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 17,
+	"name": "Bangladesh & Global Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 18,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 19,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 20,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 21,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 22,
+	"name": "Agricultural education",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 23,
+	"name": "Arts & Crafts",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 24,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 26,
+	"name": "Bangladesh & Global Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 27,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 29,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 30,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 31,
+	"name": "Physical education & health",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 32,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 33,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 34,
+	"name": "Work & life oriented education",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 35,
+	"name": "Agricultural education",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 36,
+	"name": "Arts & Crafts",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 37,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 39,
+	"name": "Bangladesh & World Identity",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 40,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 42,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 43,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 44,
+	"name": "Physical education & health",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 45,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 46,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 47,
+	"name": "Work & life oriented education",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 48,
+	"name": "Agricultural education",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 49,
+	"name": "Arts & Crafts",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 50,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 52,
+	"name": "Bangladesh & World Identity",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 53,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 55,
+	"name": "Home science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 56,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 57,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 58,
+	"name": "Physical education & health",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 59,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 60,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 61,
+	"name": "Agricultural education",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 62,
+	"name": "Arts & Crafts",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 63,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 65,
+	"name": "Bangladesh & World Identity",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 66,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 68,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 69,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 70,
+	"name": "Physical education & health",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 71,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 72,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 73,
+	"name": "Accounting",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 74,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 76,
+	"name": "Bangladesh & Global Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 77,
+	"name": "Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 78,
+	"name": "Business",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 79,
+	"name": "Chemistry",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 80,
+	"name": "Economics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 81,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 83,
+	"name": "General Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 84,
+	"name": "Higher Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 85,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 86,
+	"name": "Physical education & health",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 87,
+	"name": "Physics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 88,
+	"name": "Religion & Moral Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 89,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 91,
+	"name": "Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 93,
+	"name": "Chemistry",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 95,
+	"name": "Economics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 97,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 99,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 100,
+	"name": "Management",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 102,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 104,
+	"name": "Physics",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 123,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 124,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 126,
+	"name": "Islamiat",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 127,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 128,
+	"name": "Mo. Science ( For Non-Muslims Only)",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 129,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 130,
+	"name": "Spelling & Dictation",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 131,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 132,
+	"name": "Computer Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 133,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 134,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 135,
+	"name": "Islamiat",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 136,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 137,
+	"name": "Mo. Science ( For Non-Muslims Only)",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 138,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 139,
+	"name": "Spelling & Dictation",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 140,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 141,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 142,
+	"name": "Computer Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 143,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 144,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 145,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 146,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 147,
+	"name": "Islamiat",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 148,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 149,
+	"name": "Mo. Science ( For Non-Muslims Only)",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 150,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 151,
+	"name": "Spelling & Dictation",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 152,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 153,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 154,
+	"name": "Computer Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 155,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 156,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 157,
+	"name": "General Knowledge",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 158,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 159,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 160,
+	"name": "Islamiat",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 161,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 162,
+	"name": "Mo. Science ( For Non-Muslims Only)",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 163,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 164,
+	"name": "Social Studies/ Bangladesh Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 165,
+	"name": "Spelling & Dictation",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 166,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 167,
+	"name": "Bangla Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 168,
+	"name": "Bangla Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 169,
+	"name": "Bangladesh Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 170,
+	"name": "Chinese",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 171,
+	"name": "English Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 172,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 173,
+	"name": "French",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 174,
+	"name": "General Knowledge",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 175,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 176,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 177,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 178,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 179,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 180,
+	"name": "Social Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 181,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 182,
+	"name": "Bangla Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 183,
+	"name": "Bangla Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 184,
+	"name": "Bangladesh Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 185,
+	"name": "Chinese",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 186,
+	"name": "English Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 187,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 188,
+	"name": "French",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 189,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 190,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 191,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 192,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 193,
+	"name": "Religious Studies / Moral Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 194,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 195,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 196,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 197,
+	"name": "Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 198,
+	"name": "Chemistry",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 199,
+	"name": "Chinese",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 200,
+	"name": "English Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 201,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 202,
+	"name": "French",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 203,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 204,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 205,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 206,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 207,
+	"name": "Physics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 208,
+	"name": "Religious Studies / Moral Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 209,
+	"name": "Accounting",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 210,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 211,
+	"name": "Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 212,
+	"name": "Business Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 213,
+	"name": "Chemistry",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 214,
+	"name": "Chinese",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 215,
+	"name": "Commerce",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 216,
+	"name": "Economics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 217,
+	"name": "English Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 218,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 219,
+	"name": "French",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 220,
+	"name": "Human Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 221,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 222,
+	"name": "Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 223,
+	"name": "Physics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 224,
+	"name": "Accounting",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 225,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 226,
+	"name": "Bangla",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 227,
+	"name": "Bangladesh Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 228,
+	"name": "Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 229,
+	"name": "Business Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 230,
+	"name": "Chemistry",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 231,
+	"name": "Chinese",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 232,
+	"name": "Commerce",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 233,
+	"name": "Economics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 234,
+	"name": "English",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 235,
+	"name": "Environmental Management",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 236,
+	"name": "French",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 237,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 238,
+	"name": "German",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 239,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 240,
+	"name": "Human Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 241,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 242,
+	"name": "Mathematics B",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 243,
+	"name": "Physics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 244,
+	"name": "Pure Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 245,
+	"name": "Accounting",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 246,
+	"name": "Art & Design",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 247,
+	"name": "Biology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 248,
+	"name": "Business Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 249,
+	"name": "Chemistry",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 250,
+	"name": "Core Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 251,
+	"name": "Economics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 252,
+	"name": "English Language",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 253,
+	"name": "English Literature",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 254,
+	"name": "Further Pure Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 255,
+	"name": "ICT",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 256,
+	"name": "Law",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 257,
+	"name": "Mechanics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 258,
+	"name": "Physics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 259,
+	"name": "Psychology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 260,
+	"name": "Sociology",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 261,
+	"name": "Statistics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 279,
+	"name": "Accounting",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 319,
+	"name": "Pure Mathematics",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 321,
+	"name": "History",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 335,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 341,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 346,
+	"name": "Geography",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 8"
+}, {
+	"id": 347,
+	"name": "Computer Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 348,
+	"name": "Global Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 349,
+	"name": "Science",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 350,
+	"name": "Accounting",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 352,
+	"name": "Finance",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 353,
+	"name": "Finance",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 354,
+	"name": "Management",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "SSC"
+}, {
+	"id": 355,
+	"name": "Computer Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 356,
+	"name": "Music",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 357,
+	"name": "Music",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 358,
+	"name": "Music",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 359,
+	"name": "Music",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 4"
+}, {
+	"id": 360,
+	"name": "Music",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 5"
+}, {
+	"id": 361,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 1"
+}, {
+	"id": 362,
+	"name": "Art",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 2"
+}, {
+	"id": 363,
+	"name": "Social Studies / Bangladesh Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 3"
+}, {
+	"id": 364,
+	"name": "Social Studies",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 6"
+}, {
+	"id": 365,
+	"name": "Rhetoric",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "Class 7"
+}, {
+	"id": 366,
+	"name": "Mathematics D",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "O-Level"
+}, {
+	"id": 367,
+	"name": "Admission Test",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}, {
+	"id": 368,
+	"name": "Admission Test",
+	"country": "BD",
+	"type": "academic",
+	"category": "Bangla Medium",
+	"sub_category": "HSC"
+}, {
+	"id": 369,
+	"name": "GED",
+	"country": "BD",
+	"type": "academic",
+	"category": "English Medium",
+	"sub_category": "A-Level"
+}
+]

@@ -1,0 +1,11 @@
+{% extends "rest_framework/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block bootstrap_navbar_variant %}{% endblock %}
+
+{% block title %}{{ name }} - {% trans 'Yoda API' %}{% endblock %}
+
+{% block branding %}
+	<a class="navbar-brand">Yoda API</a>
+{% endblock %}

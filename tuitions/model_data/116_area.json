@@ -1,0 +1,466 @@
+[{
+	"id": 1,
+	"name": "Banani",
+	"zip_code": "1213"
+}, {
+	"id": 2,
+	"name": "Bashundhara",
+	"zip_code": "1229"
+}, {
+	"id": 3,
+	"name": "Baily Road",
+	"zip_code": "1219"
+}, {
+	"id": 4,
+	"name": "Cantonment",
+	"zip_code": "1206"
+}, {
+	"id": 5,
+	"name": "Dhanmondi",
+	"zip_code": "1209"
+}, {
+	"id": 6,
+	"name": "Farmgate",
+	"zip_code": "1215"
+}, {
+	"id": 8,
+	"name": "Mohammadpur",
+	"zip_code": "1207"
+}, {
+	"id": 9,
+	"name": "Mirpur",
+	"zip_code": "1216"
+}, {
+	"id": 10,
+	"name": "Malibag",
+	"zip_code": "1219"
+}, {
+	"id": 11,
+	"name": "Niketan",
+	"zip_code": "1212"
+}, {
+	"id": 12,
+	"name": "Rampura",
+	"zip_code": "1219"
+}, {
+	"id": 13,
+	"name": "Shantinagar",
+	"zip_code": "1217"
+}, {
+	"id": 14,
+	"name": "Uttara",
+	"zip_code": "1230"
+}, {
+	"id": 16,
+	"name": "Baridhara",
+	"zip_code": "1206"
+}, {
+	"id": 17,
+	"name": "Mohakhali DOHS",
+	"zip_code": "1212"
+}, {
+	"id": 18,
+	"name": "Gulshan 1",
+	"zip_code": "1212"
+}, {
+	"id": 19,
+	"name": "Banani Dohs",
+	"zip_code": "1213"
+}, {
+	"id": 20,
+	"name": "Norda",
+	"zip_code": "1229"
+}, {
+	"id": 21,
+	"name": "Lalmatia",
+	"zip_code": "1207"
+}, {
+	"id": 22,
+	"name": "Gulshan 2",
+	"zip_code": "1212"
+}, {
+	"id": 24,
+	"name": "Kalabagan",
+	"zip_code": "1205"
+}, {
+	"id": 25,
+	"name": "Moghbazar",
+	"zip_code": "1217"
+}, {
+	"id": 59,
+	"name": "Mohakhali",
+	"zip_code": "1212"
+}, {
+	"id": 61,
+	"name": "Paltan",
+	"zip_code": "1000"
+}, {
+	"id": 62,
+	"name": "Green Road",
+	"zip_code": "1205"
+
+}, {
+	"id": 63,
+	"name": "Baridhara Dohs",
+	"zip_code": "1206"
+}, {
+	"id": 64,
+	"name": "Shyamoli",
+	"zip_code": "1207"
+}, {
+	"id": 65,
+	"name": "Kallanpur",
+	"zip_code": "1207"
+}, {
+	"id": 67,
+	"name": "New Eskaton",
+	"zip_code": "1217"
+}, {
+	"id": 68,
+	"name": "Kuril",
+	"zip_code": "1229"
+}, {
+	"id": 69,
+	"name": "Nikunjo",
+	"zip_code": "1229"
+}, {
+	"id": 70,
+	"name": "Khilgaon",
+	"zip_code": "1219"
+}, {
+	"id": 72,
+	"name": "Eskaton",
+	"zip_code": "1000"
+}, {
+	"id": 74,
+	"name": "Jigatola",
+	"zip_code": "1209"
+}, {
+	"id": 75,
+	"name": "Hazaribagh",
+	"zip_code": "825301"
+}, {
+	"id": 76,
+	"name": "Paribagh",
+	"zip_code": "1000"
+}, {
+	"id": 78,
+	"name": "Elephant Road",
+	"zip_code": "1205"
+}, {
+	"id": 79,
+	"name": "Kawran Bazar",
+	"zip_code": "1215"
+}, {
+	"id": 82,
+	"name": "Sankar",
+	"zip_code": "1209"
+}, {
+	"id": 84,
+	"name": "Siddeshwari",
+	"zip_code": "1217"
+}, {
+	"id": 85,
+	"name": "Badda",
+	"zip_code": "1214"
+}, {
+	"id": 86,
+	"name": "Indira Road",
+	"zip_code": "1215"
+}, {
+	"id": 87,
+	"name": "Gulshan",
+	"zip_code": "1212"
+}, {
+	"id": 88,
+	"name": "Banasree",
+	"zip_code": "1219"
+}, {
+	"id": 90,
+	"name": "Mouchak",
+	"zip_code": "1217"
+}, {
+	"id": 91,
+	"name": "Dhaka Cantonment",
+	"zip_code": "1206"
+}, {
+	"id": 92,
+	"name": "Mirpur Dohs",
+	"zip_code": "1216"
+}, {
+	"id": 93,
+	"name": "Khilkhet",
+	"zip_code": "1229"
+}, {
+	"id": 94,
+	"name": "Bashabo",
+	"zip_code": "1214"
+}, {
+	"id": 95,
+	"name": "Kalachadpur",
+	"zip_code": "1229"
+}, {
+	"id": 102,
+	"name": "Asad Gate",
+	"zip_code": "1207"
+}, {
+	"id": 103,
+	"name": "Wari",
+	"zip_code": "1203"
+}, {
+	"id": 104,
+	"name": "Fakirapool",
+	"zip_code": "1000"
+}, {
+	"id": 105,
+	"name": "Panthapath",
+	"zip_code": "1205"
+}, {
+	"id": 106,
+	"name": "Notun Bazar",
+	"zip_code": "1229"
+}, {
+	"id": 107,
+	"name": "Azimpur",
+	"zip_code": "1205"
+}, {
+	"id": 108,
+	"name": "Lalbagh",
+	"zip_code": "1211"
+}, {
+	"id": 109,
+	"name": "Adabor",
+	"zip_code": "1207"
+}, {
+	"id": 111,
+	"name": "Shegun Bagicha",
+	"zip_code": "1000"
+}, {
+	"id": 112,
+	"name": "Shajanpur",
+	"zip_code": "1217"
+}, {
+	"id": 113,
+	"name": "Aftabnagar",
+	"zip_code": "1212"
+}, {
+	"id": 114,
+	"name": "Old Dhaka",
+	"zip_code": "1211"
+}, {
+	"id": 115,
+	"name": "Bijoysharani",
+	"zip_code": "1208"
+}, {
+	"id": 116,
+	"name": "Gopibhag",
+	"zip_code": "1203"
+}, {
+	"id": 117,
+	"name": "Rajarbagh",
+	"zip_code": "1217"
+}, {
+	"id": 118,
+	"name": "Arambag",
+	"zip_code": "1000"
+}, {
+	"id": 120,
+	"name": "Goran",
+	"zip_code": "1219"
+}, {
+	"id": 121,
+	"name": "Bangla Motor",
+	"zip_code": "1000"
+}, {
+	"id": 124,
+	"name": "Motijheel",
+	"zip_code": "1000"
+}, {
+	"id": 125,
+	"name": "Agargaon",
+	"zip_code": "1207"
+}, {
+	"id": 134,
+	"name": "Dakkhikhan",
+	"zip_code": "1230"
+}, {
+	"id": 137,
+	"name": "Nadda",
+	"zip_code": "1229"
+}, {
+	"id": 139,
+	"name": "Kakrail",
+	"zip_code": "1205"
+}, {
+	"id": 142,
+	"name": "Pallabi",
+	"zip_code": "1216"
+}, {
+	"id": 143,
+	"name": "Jatrabari",
+	"zip_code": "1232"
+}, {
+	"id": 146,
+	"name": "Kathal Bagan",
+	"zip_code": "1205"
+}, {
+	"id": 149,
+	"name": "Tikatuli",
+	"zip_code": "1203"
+}, {
+	"id": 152,
+	"name": "Bijoynogor",
+	"zip_code": "1000"
+}, {
+	"id": 154,
+	"name": "Monipuripara",
+	"zip_code": "1229"
+}, {
+	"id": 158,
+	"name": "Airport",
+	"zip_code": "1229"
+}, {
+	"id": 160,
+	"name": "Science Labarotory",
+	"zip_code": "1205"
+}, {
+	"id": 161,
+	"name": "Katabon",
+	"zip_code": "1205"
+}, {
+	"id": 163,
+	"name": "Shahjadpur",
+	"zip_code": "1217"
+}, {
+	"id": 166,
+	"name": "Kazipara",
+	"zip_code": "1216"
+}, {
+	"id": 167,
+	"name": "Mirpur-1",
+	"zip_code": "1216"
+}, {
+	"id": 168,
+	"name": "Mirpur-10",
+	"zip_code": "1216"
+},{
+	"id": 169,
+	"name": "Kafrul",
+	"zip_code": "1206"
+},{
+	"id": 170,
+	"name": "Kuratoli",
+	"zip_code": "1229"
+},{
+	"id": 171,
+	"name": "Bangshal",
+	"zip_code": "1360"
+},{
+	"id": 172,
+	"name": "Mugdapara",
+	"zip_code": "1214"
+},{
+	"id": 173,
+	"name": "Vatara",
+	"zip_code": "1229"
+},{
+	"id": 174,
+	"name": "Genderia",
+	"zip_code": "1204"
+},{
+	"id": 175,
+	"name": "Gazipur",
+	"zip_code": "1702"
+},{
+	"id": 176,
+	"name": "Uttorkhan",
+	"zip_code": "1230"
+},{
+	"id": 177,
+	"name": "Tong",
+	"zip_code": "1230"
+},{
+	"id": 178,
+	"name": "Tejgaon",
+	"zip_code": "1215"
+},{
+	"id": 179,
+	"name": "Dholaikhal",
+	"zip_code": "1362"
+},{
+	"id": 180,
+	"name": "Demra",
+	"zip_code": "1360"
+},{
+	"id": 181,
+	"name": "Shahbagh",
+	"zip_code": "1000"
+},{
+	"id": 182,
+	"name": "Narayangonj",
+	"zip_code": "1400"
+},{
+	"id": 183,
+	"name": "Sutrapur",
+	"zip_code": "1205"
+},{
+	"id": 184,
+	"name": "Dohazari",
+	"zip_code": "4382"
+},{
+	"id": 185,
+	"name": "Bakshi Bazar",
+	"zip_code": "1312"
+},{
+	"id": 186,
+	"name": "Pallabi",
+	"zip_code": "1216"
+},{
+	"id": 187,
+	"name": "sekhertek",
+	"zip_code": "1216"
+},{
+	"id": 188,
+	"name": "Tantibazar",
+	"zip_code": "1216"
+},{
+	"id": 189,
+	"name": "Ibrahimpur",
+	"zip_code": "1216"
+},{
+	"id": 190,
+	"name": "Hatirpool",
+	"zip_code": "1216"
+},{
+	"id": 191,
+	"name": "Savar",
+	"zip_code": "3016"
+},{
+	"id": 192,
+	"name": "Narinda",
+	"zip_code": "1206"
+},{
+	"id": 193,
+	"name": "Bongshal",
+	"zip_code": "1305"
+},{
+	"id": 194,
+	"name": "Jarmijuri",
+	"zip_code": "3309"
+},{
+	"id": 195,
+	"name": "Jayedpur",
+	"zip_code": "1305"
+},{
+	"id": 196,
+	"name": "Ashoka",
+	"zip_code": "1212"
+},{
+	"id": 197,
+	"name": "Shuturpara",
+	"zip_code": "1212"
+},{
+	"id": 198,
+	"name": "Jagannathpur",
+	"zip_code": "1245"
+}]

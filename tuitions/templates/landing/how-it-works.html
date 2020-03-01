@@ -1,0 +1,104 @@
+{% extends 'landing/index.html' %}
+{% load app_filters %}
+{% block title %}How it works{% endblock %}
+{% block content %}
+<!-- Page content starts here -->
+<section>
+    <h3 class=" app-color-text text-center my-4">How it works</h3>
+    <section class="my-3 " style="">
+        <div class="container">
+            <div class="row mb-5 ">
+                <div class="col-sm-12 col-lg-5 d-flex order-lg-7">
+                    <div class="my-auto">
+                        <img src="https://res.cloudinary.com/shojib/image/upload/v1579085935/yoda_branding/Howitworks_search_j3o75f.png" alt="about-page-image"
+                            class="img-fluid d-block image-margin mr-lg-auto">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-7 order-lg-5">
+                    <h3 class="">Search</h3>
+                    <p style="font-size: 0.9rem">Simply enter your subject, class &amp; location to view a tailored list of the best tutors in your area. Each tutor must have a full profile, which is vetted before they are set live on the site, so you can confidently select the right tutor for you! </p>
+                    <p style="font-size: 0.9rem">If the initial tutor can’t help, we will help you to find an alternative tutor who meets all of your needs. </p>
+                    <p style="font-size: 0.9rem">Simple. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-3 " style="background: #f7f7f7">
+        <div class="container">
+            <div class="row mb-5 py-5">
+                <div class="col-sm-12 col-lg-5 d-flex order-lg-5">
+                    <div class="my-auto">
+                        <img src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_2-08_df6cy0.png" alt="about-page-image"
+                            class="img-fluid d-block image-margin mr-lg-auto">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-7 order-lg-7 text-lg-right">
+                    <h3 class="">Request a tutor</h3>
+                    <p style="font-size: 0.9rem">Once you’ve selected your tutor, you can send a request to contact for free. If the tutor accepts your offer, they will call you directly. When the tutor accepts request, we will text and email you about it, so you know who accepted your requests without logging in. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-3 " style="">
+        <div class="container">
+            <div class="row mb-5 ">
+                <div class="col-sm-12 col-lg-5 d-flex order-lg-7">
+                    <div class="my-auto">
+                        <img src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_3_oiqp5p.png" alt="about-page-image"
+                            class="img-fluid d-block image-margin mr-lg-auto">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-7 order-lg-5">
+                    <h3 class="">Confirm your tutor</h3>
+                    <p style="font-size: 0.9rem">Once you are happy with your tutor, you and the freelancer teacher will decide upon a rate which you will pay, with no hidden or additional charges to Yoda. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-3 " style="background: #f7f7f7">
+        <div class="container">
+            <div class="row mb-5 py-5">
+                <div class="col-sm-12 col-lg-5 d-flex order-lg-5">
+                    <div class="my-auto">
+                        <img src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/step_4-02_n2xtbi.png" alt="about-page-image"
+                            class="img-fluid d-block image-margin mr-lg-auto">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-7 order-lg-7 text-lg-right">
+                    <h3 class="">Learn</h3>
+                    <p style="font-size: 0.9rem">Upon confirming your first lesson, your tutor will prepare an individualized learning plan to help you reach your goals. Every lesson will be tailored to your needs, with research demonstrating one-to-one tuition leads to an additional 5 months’ progress. </p>
+                    <p style="font-size: 0.9rem">You select when and where you learn. Lessons can take place in your own home, the tutor’s or a nearby cafe or library - it’s up to you! </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-3 " style="">
+        <div class="container">
+            <div class="row mb-5 ">
+                <div class="col-sm-12 col-lg-5 d-flex order-lg-7">
+                    <div class="my-auto">
+                        <img src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/step_5-02_msz3db.png" alt="about-page-image"
+                            class="img-fluid d-block image-margin mr-lg-auto">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-7 order-lg-5">
+                    <h3 class="">Feedback</h3>
+                    <p style="font-size: 0.9rem">We like to hear about our freelancer teachers from you so that we can build a better community and a better learning experience for everyone.   </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works-banner py-5 " style="background: #00718e">
+        <div class="container text-center">
+            <h4 class="text-white text-center ">Let's find you the perfect tutor</h4>
+            <br />
+            <a href="{{ 'parent/request-for-tutor' | get_app_url }}" class="btn btn-default home-filter-button">
+                Request for a tutor
+            </a>
+        </div>
+    </section>
+</section>
+<!-- Page contents ends here -->
+{% endblock %}
+
+{% block js %}{% endblock %}

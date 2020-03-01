@@ -1,0 +1,685 @@
+.not-signed-in,
+.signed-in-parent,
+.signed-in-tutor {
+    display: none;
+}
+
+#find-tutor-form select.form-control:disabled {
+    background-color: #f8f9fa;
+}
+#find-tutor-form select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-width: 2px;
+    height: 44px;
+}
+#find-tutor-form select.form-control:focus {
+    box-shadow: none;
+}
+@media (min-width: 768px) {
+    #find-tutor-form #subject-filter {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right-width: 1px;
+    }
+    #find-tutor-form #class-filter {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left-width: 1px;
+    }
+}
+#find-a-tutor {
+    height: 44px;
+}
+#find-a-tutor i {
+    display: none;
+}
+#find-a-tutor.loading {
+    pointer-events: none;
+    opacity: 0.4;
+}
+#find-a-tutor.loading i {
+    display: inline-block;
+}
+
+.navbar-toggler {
+    margin-right: -10px;
+}
+
+    #fa-bars {
+        color: white;
+    }
+
+    .section1 form {
+        font-size: 17px;
+    }
+
+    .radio-btn {
+        display: block;
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        font-size: 17px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default radio button */
+    .radio-btn input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    /* Create a custom radio button */
+    .radio-checkmark {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #00aeb3;
+        border-radius: 50%;
+    }
+
+    .radio-checkmark2 {
+        position: absolute;
+        top: 4px;
+        left: 2px;
+        height: 16px;
+        width: 16px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .radio-btn:hover input ~ .checkmark {
+        background-color: white;
+    }
+
+    /* When the radio button is checked, add a blue background */
+    .radio-btn input:checked ~ .checkmark {
+        background-color: #2196F3;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .radio-btn:hover input ~ .checkmark2 {
+        background-color: white;
+    }
+
+    /* When the radio button is checked, add a blue background */
+    .radio-btn input:checked ~ .checkmark2 {
+        background-color: #2196F3;
+    }
+
+
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .radio-checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .radio-checkmark2:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .radio_button {
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        background-color: #00aeb3;
+        color: white;
+        border: 1px solid #00aeb3;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    .radio-btn input:checked ~ .radio-checkmark:after {
+        display: block;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    .radio-btn input:checked ~ .radio-checkmark2:after {
+        display: block;
+    }
+
+
+    /* Style the indicator (dot/circle) */
+    .radio-btn .radio-checkmark:after {
+        top: 6px;
+        left: 6px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+        z-index: 1000;
+    }
+
+    /* Style the indicator (dot/circle) */
+    .radio-btn .radio-checkmark2:after {
+        top: 1px;
+        left: 1px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #00aeb3;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        margin-left: 73px;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+        margin-right: 73px;
+    }
+
+    .navbar-brand > img {
+        max-width: 95px;
+    }
+
+    .fa-bars {
+        font-size: 1.63em;
+    }
+
+    .navbar {
+        background-color: #00aeb3 !important;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #f2f2f2;
+    }
+
+    .navbar-toggler-icon {
+        margin-top: 5px;
+    }
+
+    .navbar-collapse {
+        font-size: 12px;
+    }
+
+    .req-tutor-btn {
+        font-size: 12px;
+        background: #ffd800;
+        color: #221e1f;
+    }
+
+
+    #find-tutor-form {
+        font-size: 17px;
+    }
+
+    #post-code {
+        border-radius: 10px;
+    }
+
+    #box-title {
+        color: #221e1f;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #box-2nd-title {
+        color: #625959;
+        font-size: 15px;
+    }
+
+    #submit-btn {
+        font-size: 17px;
+    }
+
+    .why-yoda {
+        color: #00aeb3
+    }
+
+    .why-yoda span {
+        background-color: WHITE;
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #why-yoda-img {
+        font-size: 12px;
+    }
+
+    .image4 img {
+        max-width: 100%;
+    }
+
+    .section3 h3 {
+    }
+
+
+    /*Section 04 css*/
+    .section4 h3 {
+    }
+
+    #left-img {
+        text-align: center;
+    }
+
+    .become-tutor-image {
+        width: 85%;
+    }
+
+    .become-tutor-img a {
+        background-color: #ffd800;
+        width: 45%;
+    }
+
+    #right-img {
+        text-align: center;
+    }
+
+    .become-student-img img {
+        width: 73%;
+        right: 9%;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .become-student-img a {
+        background-color: #00aeb3;
+        width: 45%;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        .navbar-brand {
+            margin-left: 0 !important;
+        }
+
+        .navbar-collapse {
+            margin-right: 0 !important;
+        }
+
+        .section1 h1 {
+            margin-top: 0;
+        }
+
+        .section1 {
+            padding-bottom: 30px;
+        }
+
+        .become-student-image {
+            position: inherit !important;
+            margin-left: 35px;
+        }
+
+        .become-tutor-image + a {
+            top: 82% !important;
+        }
+
+        /* .become-student-image + div > a {
+          margin-top: 291px!important;
+          margin-bottom: 35px!important;
+          } */
+        .boundedBox {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+
+    /* Desktop */
+    @media (min-width: 769px) {
+        .section1 h1 {
+            margin-top: 75px;
+        }
+
+        #subject {
+            border-radius: 10px 0 0 10px;
+            border-right: 0;
+        }
+
+        #level {
+            border-radius: 0 10px 10px 0;
+        }
+
+        #sub-div {
+            padding-right: 0px;
+        }
+
+        #level-div {
+            padding-left: 0;
+        }
+
+        .find-tutor-btn-div {
+            margin-top: 28px;
+        }
+
+        .why-yoda {
+            margin-bottom: 45px;
+        }
+
+        .section1 {
+            padding: 30px 0;
+        }
+    }
+
+    .become-student-image + a {
+        position: absolute;
+        top: 85%;
+        left: 32%;
+        color: white;
+    }
+
+    .become-tutor-image + a {
+        position: absolute;
+        top: 85%;
+        left: 32%;
+    }
+
+    .section1 h1 {
+        color: #00aeb3;
+        font-size: 55px;
+    }
+
+    .become-student-image + div > a {
+        color: white;
+    }
+
+    .section1 span {
+        font-size: 24px;
+        color: #221e1f;
+    }
+
+    .find-tutor-btn {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .img-fluid {
+        max-width: 72%;
+    }
+
+    .section4 {
+        padding: 20px 0 20px 0;
+    }
+
+    .home-filter-button {
+        background-color: #00aeb3;
+        padding: 6px;
+        color: white;
+
+    }
+
+    .autocomplete-suggestions {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        background: #FFF;
+        cursor: default;
+        overflow: auto;
+        -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+        -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+        box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+    }
+
+    .autocomplete-suggestion {
+        padding: 2px 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer
+    }
+
+    .autocomplete-no-suggestion {
+        padding: 2px 5px;
+    }
+
+    .autocomplete-selected {
+        background: #F0F0F0;
+    }
+
+    .autocomplete-suggestions strong {
+        font-weight: bold;
+        color: #000;
+    }
+
+    .autocomplete-group {
+        padding: 2px 5px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #000;
+        display: block;
+        border-bottom: 1px solid #000;
+    }
+
+    span.coming-soon {
+        font-size: 10px !important;
+        margin-left: -10px !important;
+        color: #f15d5b;
+    }
+
+    .app-color-text {
+        color: #00aeb3 !important;
+    }
+
+    .btn-app-color {
+        background: #00aeb3;
+        color: #fff;
+    }
+
+    .about_us form textarea, .about_us form input {
+        border-color: #00aeb3 !important;
+    }
+
+    .about_us p {
+        font-size: 0.75rem;
+        color: #68696b;
+    }
+
+    .how-it-works-banner .radio_button {
+        background-color: #1d8eb4;
+        border-color: #1d8eb4;
+    }
+
+    .how-it-works-banner .radio-btn .radio-checkmark2:after {
+        background: #1d8eb4;
+    }
+
+    .how-it-works-banner .radio-checkmark {
+        background: #1d8eb4;
+    }
+
+    .how-it-works-banner .home-filter-button {
+        background-color: #ffd800;
+        border-radius: 4px;
+        color: #000;
+    }
+
+    @media (min-width: 769px) {
+        input#autocomplete_subject {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-right-color: #bfbfbf;
+        }
+
+        input#autocomplete_level {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .image-margin {
+            margin: 1rem auto !important;
+        }
+
+        .slogan {
+            font-size: 40px !important;
+        }
+    }
+
+    .terms-and-privacy p {
+        font-size: 0.9rem
+    }
+
+    .terms-and-privacy a {
+        color: #00aeb3;
+    }
+
+    .why-yoda-subtitle {
+        font-size: 18px;
+    }
+
+    .footer_li li a {
+        line-height: 35px !important;
+    }
+
+    .section-header {
+        background: transparent;
+        font-size: 30px;
+    }
+
+    .carousel-details {
+        max-width: 440px;
+        margin: auto;
+        min-height: 7rem;
+    }
+
+    .brand-green-button {
+        background-color: #00aeb3 !important;
+        color: #fff !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .brand-green-button:hover {
+        background-color: #ffd800 !important;
+        color: #222 !important;
+    }
+
+    .brand-yellow-button {
+        background-color: #ffd800 !important;
+        color: #222 !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .brand-yellow-button:hover {
+        background-color: #00aeb3 !important;
+        color: #fff !important;
+    }
+
+    .brand-green-button-with-border-hover {
+        border: 2px solid transparent !important;
+        background-color: #00aeb3 !important;
+        color: #fff !important;
+        font-weight: 700;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .brand-green-button-with-border-hover:hover {
+        background-color: transparent !important;
+        border-color: #00aeb3 !important;
+        color: #00aeb3 !important;
+    }
+
+    .brand-yellow-button-with-border-hover {
+        border: 2px solid transparent !important;
+        background-color: #ffd800 !important;
+        color: #222 !important;
+        font-weight: 700;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .brand-yellow-button-with-border-hover:hover {
+        background-color: transparent !important;
+        border-color: #ffd800 !important;
+        color: #ffd800 !important;
+    }
+
+    .bg-branding-green {
+        background: #00aeb3;
+    }
+
+    .footer_li h5 {
+        color: #00aeb3;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .footer_li li a {
+        line-height: 35px !important;
+    }
+
+    .footer_li li a {
+        color: white;
+        font-size: 14px;
+    }
+
+    .footer_li li {
+        list-style: none;
+    }
+
+    .section3 ul li {
+        background-color: #00aeb3;
+    }
+
+    .bounded-box {
+        padding: 30px 15px;
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        text-align: center;
+        box-shadow: 0 0.250em 0.375em rgba(50,50,93,.09), 0 0.063em 0.188em rgba(0,0,0,.08);
+    }
+
+    .slogan {
+        font-weight: 700;
+        font-size: 55px;
+    }
+
+    .sub-slogan {
+        font-size: 24px;
+        color: #221e1f;
+    }
+
+    .section-title {
+        font-weight: 700;
+    }
+
+
+    .section4 {
+        background: #F4F6F6;
+    }
+
+    .section5 {
+        background-color: #000000;
+    }
+
+    #radio_button2 {
+        background-color: white;
+        color: rgb(0, 174, 179);
+    }
+
+
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+
+    /* Contact page styles */
+    .message-us-btn {
+        background: #3578E5;
+        color: #fff;
+    }
+
+    .message-us-btn:hover {
+        background-color: #375b96;
+        color: #fff;
+    }

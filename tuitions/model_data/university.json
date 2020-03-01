@@ -1,0 +1,654 @@
+[{
+    "id": 1,
+    "name": "Asian University of Bangladesh (AUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 2,
+    "name": "BRAC University",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 3,
+    "name": "East West University (EWU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 4,
+    "name": "Independent University, Bangladesh (IUB)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 5,
+    "name": "International Islamic University, Chittagong (IIUC)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 6,
+    "name": "North South University (NSU)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 7,
+    "name": "University of Dhaka (DU)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 8,
+    "name": "Bangladesh University of Engineering & Technology (BUET)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 9,
+    "name": "Institute of Business Administration (IBA, DU)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 10,
+    "name": "Dhaka Medical College and Hospital (DMCH)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 11,
+    "name": "Islamic University of Technology (IUT)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 12,
+    "name": "Asian University for Women (AUW)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 13,
+    "name": "Ahsanullah University of Science and Technology (AUST)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 14,
+    "name": "Bangladesh University of Business and Technology (BUBT)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 15,
+    "name": "Daffodil International University (DIU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 16,
+    "name": "Canadian University of Bangladesh",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 17,
+    "name": "Dhaka International University",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 18,
+    "name": "East Delta University (EDU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 19,
+    "name": "Northern University of Business & Technology, Khulna (NUBT Khulna)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 20,
+    "name": "Northern University, Bangladesh (NUB)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 21,
+    "name": "Primeasia University",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 22,
+    "name": "Shanto-Mariam University of Creative Technology (SMUCT)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 23,
+    "name": "Southeast University (SEU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 24,
+    "name": "United International University (UIU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 25,
+    "name": "University of Liberal Arts Bangladesh (ULAB)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 26,
+    "name": "University of Science & Technology Chittagong (USTC)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 27,
+    "name": "BGMEA University of Fashion & Technology",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 28,
+    "name": "University of Rajshahi (RU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 29,
+    "name": "Bangladesh Agricultural University (BAU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 30,
+    "name": "Jahangirnagar University (JU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 31,
+    "name": "Islamic University, Bangladesh",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 32,
+    "name": "Shahjalal University of Science and Technology (SUST)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 33,
+    "name": "University of Chittagong (CU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 34,
+    "name": "Chittagong Medical University (CMC)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 35,
+    "name": "Khulna University (KU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 36,
+    "name": "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 37,
+    "name": "Dhaka University of Engineering & Technology (DUET)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 38,
+    "name": "Rajshahi University of Engineering & Technology (RUET)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 39,
+    "name": "Chittagong University of Engineering & Technology (CUET)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 40,
+    "name": "Khulna University of Engineering & Technology (KUET)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 41,
+    "name": "Chittagong Veterinary and Animal Sciences University (CVASU)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 42,
+    "name": "Jessore University of Science & Technology (JUST)",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 43,
+    "name": "University of Barisal",
+    "grade": 2,
+    "country": "BD"
+},{
+    "id": 44,
+    "name": "American International University Bangladesh (AIUB)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 45,
+    "name": "ASA University Bangladesh (ASAUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 46,
+    "name": "Atish Dipankar University of Science and Technology (ADUST)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 47,
+    "name": "Bangladesh Army International University of Science & Technology (BAIUST)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 48,
+    "name": "Bangladesh Army University of Engineering & Technology (BAUET)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 49,
+    "name": "Bangladesh Army University of Science and Technology (BAUST)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 50,
+    "name": "Bangladesh Islami University (BIU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 51,
+    "name": "Bangladesh University (BU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 52,
+    "name": "Bangladesh University of Health Sciences (BUHS)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 53,
+    "name": "BGC Trust University Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 54,
+    "name": "Britannia University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 55,
+    "name": "CCN University of Science & Technology",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 56,
+    "name": "Central University of Science and Technology",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 57,
+    "name": "Central Women's University (CWU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 58,
+    "name": "Chittagong Independent University (CIU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 59,
+    "name": "City University, Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 60,
+    "name": "Coxs Bazar International University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 62,
+    "name": "Eastern University, Bangladesh (EU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 63,
+    "name": "European University of Bangladesh (EUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 64,
+    "name": "Exim Bank Agricultural University Bangladesh (EBAUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 65,
+    "name": "Fareast International University (FIU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 66,
+    "name": "Feni University (FU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 67,
+    "name": "First Capital University of Bangladesh (FCUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 68,
+    "name": "Global University Bangladesh (GUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 69,
+    "name": "Gono Bishwabidyalay",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 70,
+    "name": "Green University of Bangladesh (GUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 71,
+    "name": "IBAIS University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 72,
+    "name": "International University of Business Agriculture and Technology (IUBAT)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 73,
+    "name": "Ishaka International University Bangladesh (IIUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 74,
+    "name": "Khwaja Yunus Ali University (KYAU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 75,
+    "name": "Leading University (LU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 76,
+    "name": "Manarat International University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 77,
+    "name": "Metropolitan University (MU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 78,
+    "name": "The Millennium University (TMU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 79,
+    "name": "North Bengal International University (NBIU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 80,
+    "name": "Notre Dame University Bangladesh (NDUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 81,
+    "name": "People's University of Bangladesh (PUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 82,
+    "name": "Port City International University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 83,
+    "name": "Premier University, Chittagong",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 84,
+    "name": "Presidency University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 85,
+    "name": "Prime University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 86,
+    "name": "Pundra University of Science and Technology",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 87,
+    "name": "Rajshahi Science & Technology University (RSTU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 88,
+    "name": "Ranada Prasad Shaha University (RPSU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 89,
+    "name": "Royal University of Dhaka (RUD)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 90,
+    "name": "Sonargaon University (SU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 91,
+    "name": "Southern University, Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 92,
+    "name": "Stamford University Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 93,
+    "name": "State University of Bangladesh (SUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 94,
+    "name": "Sylhet International University (SIU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 95,
+    "name": "The University of Comilla, Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 96,
+    "name": "University of Asia Pacific (Bangladesh)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 97,
+    "name": "University of Creative Technology Chittagong (UCTC)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 98,
+    "name": "University of Development Alternative (UODA)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 99,
+    "name": "University of Information Technology and Sciences",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 100,
+    "name": "University of South Asia, Bangladesh (USA)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 101,
+    "name": "Uttara University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 102,
+    "name": "Varendra University (VU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 103,
+    "name": "Victoria University of Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 104,
+    "name": "World University of Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 105,
+    "name": "Z H Sikder University of Science & Technology",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 106,
+    "name": "Hamdard University Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 107,
+    "name": "North Western University, Bangladesh",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 108,
+    "name": "Queens University (QU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 109,
+    "name": "North East University Bangladesh (NEUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 111,
+    "name": "Bangabandhu Sheikh Mujibur Rahman Agricultural University (BSMRAU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 112,
+    "name": "Hajee Mohammad Danesh Science & Technology University (HSTU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 113,
+    "name": "Mawlana Bhashani Science and Technology University (MBSTU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 114,
+    "name": "Patuakhali Science and Technology University (PSTU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 115,
+    "name": "Sher-e-Bangla Agricultural University (SAU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 116,
+    "name": "Jagannath University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 117,
+    "name": "Jatiya Kabi Kazi Nazrul Islam University (JKKNIU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 118,
+    "name": "Sylhet Agricultural University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 119,
+    "name": "Cumilla University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 120,
+    "name": "Noakhali Science and Technology University (NSTU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 121,
+    "name": "Pabna University of Science and Technology (PUST)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 122,
+    "name": "Bangladesh University of Professionals (BUP)",
+    "grade": 1,
+    "country": "BD"
+},{
+    "id": 123,
+    "name": "Begum Rokeya University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 124,
+    "name": "Bangladesh University of Textiles (BUTEX)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 125,
+    "name": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University (BSMRSTU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 126,
+    "name": "Bangabandhu Sheikh Mujibur Rahman Maritime University (BSMRMU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 127,
+    "name": "Rangamati Science and Technology University",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 128,
+    "name": "Rabindra University, Bangladesh (RUB)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id": 129,
+    "name": "Bangabandhu Sheikh Mujibur Rahman Digital University (BSMRDU)",
+    "grade": 3,
+    "country": "BD"
+},{
+    "id" : 130,
+    "name" : "Military Institute of Science and Technology (MIST)",
+    "grade" : 1,
+    "type" : 1,
+    "country": "BD"
+},{
+    "id" : 131,
+    "name" : "University of London International Programmes",
+    "grade" : 1,
+    "type" : 3,
+    "country": "BD"
+},{
+    "id" : 132,
+    "name" : "Institute of Professional Accountancy Qualifications",
+    "grade" : 1,
+    "type" : 2,
+    "country": "BD"
+}]

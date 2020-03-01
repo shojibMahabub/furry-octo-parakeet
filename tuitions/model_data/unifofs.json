@@ -1,0 +1,768 @@
+[
+	{
+		"id" : 2,
+		"name" : "Accounting"
+		
+		
+	},
+	{
+		"id" : 3,
+		"name" : "Accounting & Information Systems"
+		
+		
+	},
+	{
+		"id" : 4,
+		"name" : "AMT"
+		
+		
+	},
+	{
+		"id" : 5,
+		"name" : "Applied Chemistry and Chemicals"
+		
+		
+	},
+	{
+		"id" : 6,
+		"name" : "Applied Mathematics"
+		
+		
+	},
+	{
+		"id" : 7,
+		"name" : "Arabic"
+		
+		
+	},
+	{
+		"id" : 8,
+		"name" : "Arabic and Islamic Studies"
+		
+		
+	},
+	{
+		"id" : 9,
+		"name" : "Architecture"
+		
+		
+	},
+	{
+		"id" : 10,
+		"name" : "Bangla"
+		
+		
+	},
+	{
+		"id" : 11,
+		"name" : "Banking and Insurance"
+		
+		
+	},
+	{
+		"id" : 12,
+		"name" : "BBA (Professional)"
+		
+		
+	},
+	{
+		"id" : 13,
+		"name" : "Bengali"
+		
+		
+	},
+	{
+		"id" : 14,
+		"name" : "Biochemistry"
+		
+		
+	},
+	{
+		"id" : 15,
+		"name" : "Biochemistry & Microbiology"
+		
+		
+	},
+	{
+		"id" : 16,
+		"name" : "Biochemistry and Molecular Biology"
+		
+		
+	},
+	{
+		"id" : 17,
+		"name" : "Biomedical Engineering (BME)"
+		
+		
+	},
+	{
+		"id" : 18,
+		"name" : "Biomedical Physics and Technology"
+		
+		
+	},
+	{
+		"id" : 19,
+		"name" : "Botany"
+		
+		
+	},
+	{
+		"id" : 20,
+		"name" : "Building Engineering & Construction Management (BECM)"
+		
+		
+	},
+	{
+		"id" : 21,
+		"name" : "Centre for Climate Change and Environmental Research"
+		
+		
+	},
+	{
+		"id" : 22,
+		"name" : "Centre for Entrepreneurship Development"
+		
+		
+	},
+	{
+		"id" : 23,
+		"name" : "Ceramics"
+		
+		
+	},
+	{
+		"id" : 24,
+		"name" : "Chemical & Food Process Engineering (CFPE)"
+		
+		
+	},
+	{
+		"id" : 25,
+		"name" : "Chemical Engineering (ChE)"
+		
+		
+	},
+	{
+		"id" : 26,
+		"name" : "Chemistry"
+		
+		
+	},
+	{
+		"id" : 27,
+		"name" : "Chemistry (Chem)"
+		
+		
+	},
+	{
+		"id" : 28,
+		"name" : "Civil and Environmental Engineering"
+		
+		
+	},
+	{
+		"id" : 29,
+		"name" : "Civil Engineering (CE)"
+		
+		
+	},
+	{
+		"id" : 30,
+		"name" : "Clinical Pharmacy and Pharmacology"
+		
+		
+	},
+	{
+		"id" : 31,
+		"name" : "Computer Science"
+		
+		
+	},
+	{
+		"id" : 32,
+		"name" : "Computer Science & Engineering (CSE)"
+		
+		
+	},
+	{
+		"id" : 33,
+		"name" : "Control and Applications Research Centre"
+		
+		
+	},
+	{
+		"id" : 34,
+		"name" : "Craft"
+		
+		
+	},
+	{
+		"id" : 35,
+		"name" : "Department Mathematics and Natural Sciences"
+		
+		
+	},
+	{
+		"id" : 36,
+		"name" : "Disaster Science and Management"
+		
+		
+	},
+	{
+		"id" : 37,
+		"name" : "Drawing and Painting"
+		
+		
+	},
+	{
+		"id" : 38,
+		"name" : "Economics"
+		
+		
+	},
+	{
+		"id" : 39,
+		"name" : "Economics And Social Sciences"
+		
+		
+	},
+	{
+		"id" : 40,
+		"name" : "Educational Psychology"
+		
+		
+	},
+	{
+		"id" : 41,
+		"name" : "Electrical & Computer Engineering(ECE)"
+		
+		
+	},
+	{
+		"id" : 42,
+		"name" : "Electrical & Electronic Engineering (EEE)"
+		
+		
+	},
+	{
+		"id" : 43,
+		"name" : "Electrical and Computer Engineering"
+		
+		
+	},
+	{
+		"id" : 46,
+		"name" : "Electronics & Telecommunication Engineering (ETE)"
+		
+		
+	},
+	{
+		"id" : 47,
+		"name" : "English"
+		
+		
+	},
+	{
+		"id" : 48,
+		"name" : "English & Modern Languages"
+		
+		
+	},
+	{
+		"id" : 49,
+		"name" : "English and Humanities"
+		
+		
+	},
+	{
+		"id" : 50,
+		"name" : "Environmental Science and Management"
+		
+		
+	},
+	{
+		"id" : 51,
+		"name" : "FDT"
+		
+		
+	},
+	{
+		"id" : 52,
+		"name" : "Finance"
+		
+		
+	},
+	{
+		"id" : 53,
+		"name" : "Fisheries Science"
+		
+		
+	},
+	{
+		"id" : 54,
+		"name" : "Genetic Engineering and Biotechnology"
+		
+		
+	},
+	{
+		"id" : 55,
+		"name" : "Geography"
+		
+		
+	},
+	{
+		"id" : 56,
+		"name" : "geography and environment"
+		
+		
+	},
+	{
+		"id" : 57,
+		"name" : "Geology"
+		
+		
+	},
+	{
+		"id" : 58,
+		"name" : "Glass & Ceramic Engineering (GCE)"
+		
+		
+	},
+	{
+		"id" : 59,
+		"name" : "Graphic Design"
+		
+		
+	},
+	{
+		"id" : 60,
+		"name" : "History"
+		
+		
+	},
+	{
+		"id" : 61,
+		"name" : "History & Philosophy"
+		
+		
+	},
+	{
+		"id" : 62,
+		"name" : "History of Art"
+		
+		
+	},
+	{
+		"id" : 63,
+		"name" : "Humanities (Hum)"
+		
+		
+	},
+	{
+		"id" : 64,
+		"name" : "Industrial & Production Engineering (IPE)"
+		
+		
+	},
+	{
+		"id" : 65,
+		"name" : "Industrial and Production Engineering (IPE)"
+		
+		
+	},
+	{
+		"id" : 66,
+		"name" : "Information Science and Library Management"
+		
+		
+	},
+	{
+		"id" : 67,
+		"name" : "International Business"
+		
+		
+	},
+	{
+		"id" : 68,
+		"name" : "International Relations"
+		
+		
+	},
+	{
+		"id" : 69,
+		"name" : "Islamic History & culture"
+		
+		
+	},
+	{
+		"id" : 70,
+		"name" : "Islamic History and Culture"
+		
+		
+	},
+	{
+		"id" : 71,
+		"name" : "Islamic Study"
+		
+		
+	},
+	{
+		"id" : 72,
+		"name" : "James P Grant School of Public Health"
+		
+		
+	},
+	{
+		"id" : 73,
+		"name" : "KMT"
+		
+		
+	},
+	{
+		"id" : 74,
+		"name" : "Law"
+		
+		
+	},
+	{
+		"id" : 75,
+		"name" : "Management"
+		
+		
+	},
+	{
+		"id" : 76,
+		"name" : "Management Information Systems"
+		
+		
+	},
+	{
+		"id" : 77,
+		"name" : "Management Studies"
+		
+		
+	},
+	{
+		"id" : 78,
+		"name" : "Marketing"
+		
+		
+	},
+	{
+		"id" : 79,
+		"name" : "Mass Communication and Journalism"
+		
+		
+	},
+	{
+		"id" : 80,
+		"name" : "Material Science & Engineering (MSE)"
+		
+		
+	},
+	{
+		"id" : 81,
+		"name" : "Materials and Metallurgical Engineering (MME)"
+		
+		
+	},
+	{
+		"id" : 82,
+		"name" : "Mathematics"
+		
+		
+	},
+	{
+		"id" : 83,
+		"name" : "Mathematics (Math)"
+		
+		
+	},
+	{
+		"id" : 84,
+		"name" : "Mechanical Engineering (ME)"
+		
+		
+	},
+	{
+		"id" : 85,
+		"name" : "Mechatronics Engineering (MTE)"
+		
+		
+	},
+	{
+		"id" : 86,
+		"name" : "Medical Psychology"
+		
+		
+	},
+	{
+		"id" : 87,
+		"name" : "Meteorology"
+		
+		
+	},
+	{
+		"id" : 88,
+		"name" : "Microbiology"
+		
+		
+	},
+	{
+		"id" : 89,
+		"name" : "Naval Architecture and Marine Engineering (NAME)"
+		
+		
+	},
+	{
+		"id" : 90,
+		"name" : "Nuclear Engineering"
+		
+		
+	},
+	{
+		"id" : 91,
+		"name" : "oceanography"
+		
+		
+	},
+	{
+		"id" : 92,
+		"name" : "Organization Strategy and Leadership"
+		
+		
+	},
+	{
+		"id" : 93,
+		"name" : "Oriental Art"
+		
+		
+	},
+	{
+		"id" : 94,
+		"name" : "Pali and Sanskrit"
+		
+		
+	},
+	{
+		"id" : 95,
+		"name" : "Persian Language and Literature"
+		
+		
+	},
+	{
+		"id" : 96,
+		"name" : "Petroleum and Mineral Resources Engineering (PMRE)"
+		
+		
+	},
+	{
+		"id" : 97,
+		"name" : "Pharmaceutical Chemistry"
+		
+		
+	},
+	{
+		"id" : 98,
+		"name" : "Pharmaceutical Sciences"
+		
+		
+	},
+	{
+		"id" : 99,
+		"name" : "Pharmaceutical Technology"
+		
+		
+	},
+	{
+		"id" : 100,
+		"name" : "Pharmacy"
+		
+		
+	},
+	{
+		"id" : 101,
+		"name" : "Philosophy"
+		
+		
+	},
+	{
+		"id" : 102,
+		"name" : "Physics (Phys)"
+		
+		
+	},
+	{
+		"id" : 103,
+		"name" : "Political Science"
+		
+		
+	},
+	{
+		"id" : 104,
+		"name" : "Political Science & Sociology"
+		
+		
+	},
+	{
+		"id" : 105,
+		"name" : "Printing and Publication Studies"
+		
+		
+	},
+	{
+		"id" : 106,
+		"name" : "Printmaking"
+		
+		
+	},
+	{
+		"id" : 107,
+		"name" : "Professional Development Centre"
+		
+		
+	},
+	{
+		"id" : 108,
+		"name" : "Psychology"
+		
+		
+	},
+	{
+		"id" : 109,
+		"name" : "Public Administration"
+		
+		
+	},
+	{
+		"id" : 110,
+		"name" : "Public Health"
+		
+		
+	},
+	{
+		"id" : 111,
+		"name" : "Robotics and Mechatronics"
+		
+		
+	},
+	{
+		"id" : 112,
+		"name" : "Sanskrit and Pali"
+		
+		
+	},
+	{
+		"id" : 113,
+		"name" : "School of Engineering and Computer Science"
+		
+		
+	},
+	{
+		"id" : 114,
+		"name" : "School of Law"
+		
+		
+	},
+	{
+		"id" : 115,
+		"name" : "Sculpture"
+		
+		
+	},
+	{
+		"id" : 116,
+		"name" : "Social Work"
+		
+		
+	},
+	{
+		"id" : 117,
+		"name" : "Sociology"
+		
+		
+	},
+	{
+		"id" : 118,
+		"name" : "Soil, Water and Environment"
+		
+		
+	},
+	{
+		"id" : 119,
+		"name" : "Statistics"
+		
+		
+	},
+	{
+		"id" : 120,
+		"name" : "Theater and Music"
+		
+		
+	},
+	{
+		"id" : 121,
+		"name" : "Theoretical and Computational Chemistry"
+		
+		
+	},
+	{
+		"id" : 122,
+		"name" : "Theoretical Physics"
+		
+		
+	},
+	{
+		"id" : 123,
+		"name" : "Tourism and Hospitality Management"
+		
+		
+	},
+	{
+		"id" : 124,
+		"name" : "Urban and Regional Planning (URP)"
+		
+		
+	},
+	{
+		"id" : 125,
+		"name" : "Water Resources Engineering (WRE)"
+		
+		
+	},
+	{
+		"id" : 126,
+		"name" : "World Religion and Culture"
+		
+		
+	},
+	{
+		"id" : 127,
+		"name" : "Zoology"
+		
+		
+	},
+	{
+		"id" : 128,
+		"name" : "Development Studies"
+		
+		
+	},
+	{
+		"id" : 129,
+		"name" : "Aeronautical Engineering"
+	},
+	{
+		"id" : 130,
+		"name" : "International Business"
+	},
+	{
+		"id" : 131,
+		"name" : "Information & Communication Engineering (ICE)"
+	},
+	{
+		"id" : 132,
+		"name" : "Admission Test"
+	}
+]

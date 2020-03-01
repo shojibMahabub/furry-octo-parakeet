@@ -1,0 +1,597 @@
+{% load static %}
+{% load app_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Yoda - {% block title %}Find Private Tutors at Affordable Prices, In-Person & Online{% endblock %}</title>
+        <link rel="icon" href="https://res.cloudinary.com/shojib/image/upload/v1578952246/yoda_branding/logo_square_h1tjdw.png">
+
+        {% block seo_and_open_graph %}
+        <!-- Open graph -->
+        <meta property="fb:app_id" content="485359748734810">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://www.yodabd.com">
+        <meta property="og:title" content="Yoda - Find Private Tutors at Affordable Prices, In-Person & Online">
+        <meta property="og:description" content="Yoda is an online educational technology platform which pairs students with private tutors, either locally in-person or remotely via online whiteboard.">
+        <meta property="og:image" content="https://res.cloudinary.com/shojib/image/upload/v1578952246/yoda_branding/logo_square_h1tjdw.png">
+
+        <!-- SEO -->
+        <meta name="description" content="Yoda is an online educational technology platform which pairs students with private tutors, either locally in-person or remotely via online whiteboard">
+        <meta name="author" content="Yoda">
+        <meta name="keywords" content="Yoda, Tutors, Bangladesh, BD, Dhaka, Parents, Teachers, Tuitions, Spring Tutors, Caretutors">
+        {% endblock %}
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Styles CSS -->
+        <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Lato font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Base app URL -->
+        <input type="text" value="{{ '' | get_app_url }}" type="hidden" id="baseAppUrl" style="position: absolute;">
+
+        <!-- Class filter data -->
+        <input type="text" value="{{ class_filter }}" type="hidden" id="classFilterData" style="position: absolute;">
+
+        <!-- Navbar section start -->
+        <section>
+            <nav class="navbar navbar-expand-lg bg-prim static-top landing-nav navbar-green">
+                <div class="container-fluid">
+                    <!-- Brand start -->
+                    <a class="navbar-brand" href="{% url 'landing:index' %}">
+                        <img src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/yoda_logo_white_h7cze2.svg" alt="Yoda logo">
+                    </a>
+                    <!-- Brand end -->
+
+                    <!-- Navbar toggle start -->
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-bars fa-lg text-white"></i>
+                        </span>
+                    </button>
+                    <!-- Navbar toggle end -->
+
+                    <!-- Navbar menu start -->
+                    <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="{% url 'landing:index' %}">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="{% url 'landing:how-it-works' %}">How it Works</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="{{ 'tutor-list/' | get_app_url }}">Tutor List</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="{{ 'signup/tutor/' | get_app_url }}">Become A Tutor</a>
+                            </li>
+                            <li class="nav-item mx-2 not-signed-in">
+                                <a class="nav-link" href="{{ 'signup/' | get_app_url }}">Sign up</a>
+                            </li>
+                            <li class="nav-item mx-2 not-signed-in">
+                                <a class="nav-link" href="{{ 'login/' | get_app_url }}">Login</a>
+                            </li>
+                            <li class="nav-item mx-2 signed-in-parent">
+                                <a class="btn req-tutor-btn mt-2 mt-lg-0 brand-yellow-button-with-border-hover" href="{{ 'parent/dashboard/' | get_app_url }}" style="background-color: #fff !important; color: #333333 !important; border-color: #fff !important;">Dashboard</a>
+                            </li>
+                            <li class="nav-item mx-2 signed-in-tutor">
+                                <a class="btn req-tutor-btn mt-2 mt-lg-0 brand-yellow-button-with-border-hover" href="{{ 'tutor/dashboard/' | get_app_url }}" style="background-color: #fff !important; color: #333333 !important; border-color: #fff !important;">Dashboard</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="{{ 'parent/request-for-tutor/' | get_app_url }}" class="btn req-tutor-btn mt-2 mt-lg-0 brand-yellow-button-with-border-hover">Request a tutor</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Navbar menu end -->
+                </div>
+            </nav>
+        </section>
+        <!-- Navbar section end -->
+
+        {% block content %}
+
+        <section>
+            <div>
+                <div class="header container">
+
+                    <!-- Header Jumbotron area start -->
+                    <section class="promo-header py-5">
+                        <div class="row">
+                            <div class="col-lg-8 col-sm-12">
+                                <h1 class="slogan mt-lg-5 mt-sm-1">
+                                    Learning Made Simple
+                                </h1>
+                                <p class="sub-slogan mb-4">
+                                    Connect with educators &amp; learn with a single click.
+                                </p>
+                                <form accept-charset="UTF-8" action="https://yodabd.com/filter_tutor_list" class="" method="GET">
+                                    <p>I would like my lessons</p>
+                                    <div class="form-check-inline radio_button" id="radio_button1">
+                                        <label class="radio-btn" for="radio1">In-Person
+                                        <input checked="" class="form-check-input radio-btn" id="radio1" name="optradio" type="radio" value="1">
+                                        <span class="radio-checkmark"></span>
+                                        <span class="radio-checkmark2"></span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check-inline radio_button" id="radio_button2">
+                                        <label class="radio-btn" for="radio2">Online
+                                        <input class="form-check-input radio-btn" disabled="" id="radio2" name="optradio" type="radio" value="2">
+                                        <span class="radio-checkmark"></span>
+                                        <span class="radio-checkmark2"></span>
+                                        </label>
+                                    </div>
+                                    <span class="badge badge-light text-danger">Coming Soon!</span>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 text-center">
+                                <img alt="landing" class="img-fluid" src="https://res.cloudinary.com/shojib/image/upload/v1578952246/yoda_branding/langing-icon-01_ugsvjy.svg" width="100%">
+                            </div>
+                        </div>
+                        <div class="row pt-2 mt-4" id="find-tutor-form">
+
+                            <!-- Subject start -->
+                            <div class="col-md-3" id="sub-div">
+                                <h6><strong>Subject</strong></h6>
+                                <div class="form-group">
+                                    <select class="form-control" id="subject-filter" name="subject-filter">
+                                        <option value="" disabled="disabled" selected="selected">Example: Maths</option>
+                                        {% for k,v in subject_filter.items %}
+                                            <option value="{{ v }}">{{ k }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Subject end -->
+
+                            <!-- Class start -->
+                            <div class="col-md-3" id="level-div">
+                                <h6><strong>Class</strong></h6>
+                                <div class="form-group">
+                                    <select class="form-control" id="class-filter" name="class-filter" disabled="disabled">
+                                        <option value="" disabled="disabled" selected="selected">Select subject first</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Class end -->
+
+                            <!-- Location start -->
+                            <div class="col-md-3">
+                                <h6><strong>Location</strong></h6>
+                                <div class="form-group">
+                                    <select class="form-control" id="area-filter" name="area-filter">
+                                        <option value="" disabled="disabled" selected="selected">Add your area</option>
+                                        {% for k,v in area_filter.items %}
+                                            <option value="{{ v }}">{{ k }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Location end -->
+
+                            <!-- Find a tutor button start -->
+                            <div class="col-md-3 col-sm-12 find-tutor-btn-div">
+                                <button class="btn btn-default find-tutor-btn home-filter-button brand-green-button" type="submit" onclick="findATutor()" id="find-a-tutor">
+                                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                                    Find a tutor
+                                </button>
+                            </div>
+                            <!-- Find a tutor button end -->
+
+                        </div>
+                        <div class="row boundedBox mb-3 mt-5">
+                            <div class="col-sm-12 offset-md-3 col-md-6 offset-lg-3 col-lg-6 offset-xl-4 col-xl-4 bounded-box">
+                                <div class="" id="box-title">
+                                    Request a private tutor
+                                </div>
+                                <div id="box-2nd-title">
+                                    Post your requirements and let tutors find you.
+                                </div>
+                                <div id="submit-btn">
+                                    <a class="btn btn-default brand-green-button mt-3 px-4" href="{{ 'parent/request-for-tutor/' | get_app_url }}">Submit a request</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Header jumbotron area end -->
+
+                </div>
+                <!-- Header Container area ends here -->
+
+                <!-- Why Yoda section start -->
+                <div class="info-session-section py-4 bg-branding-green">
+                    <div class="container infos-section">
+                        <div class="section-header my-4 text-white section-title text-center">
+                            Why Yoda?
+                        </div>
+                        <div class="row py-3">
+                            <div class="col-md-3 col-sm-6 text-center">
+                                <img alt="verified-tutors" class="image-content" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/ver-tutor_tnmskv.svg">
+                                <p class="why-yoda-subtitle text-white">
+                                    We authenticate all profiles and verify
+                                    their background.
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 text-center">
+                                <img alt="zero-commission" class="image-content" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/zero-com_lu08j2.svg">
+                                <p class="why-yoda-subtitle text-white">
+                                    All the money goes directly to the tutor's
+                                    pocket.
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 text-center">
+                                <img alt="free-registration" class="image-content" src="https://res.cloudinary.com/shojib/image/upload/v1578952245/yoda_branding/free_barftw.svg">
+                                <p class="why-yoda-subtitle text-white">
+                                    Signing up is quick, fun and completely
+                                    free.
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 text-center">
+                                <img alt="affordable" class="image-content" src="https://res.cloudinary.com/shojib/image/upload/v1578952244/yoda_branding/affordable_hteilc.svg">
+                                <p class="why-yoda-subtitle text-white">
+                                    Choose an experienced tutor that fits your
+                                    budget.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Why Yoda section end -->
+
+                <!-- New how yoda works section starts here -->
+                <section class="section3" id="howitworks">
+                    <div class="section-header my-4 section-title text-center">
+                        How does Yoda work?
+                    </div>
+                    <div class="carousel slide d-none d-lg-block" data-interval="5000" data-pause="hover" data-ride="carousel" id="demo">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li class="" data-slide-to="0" data-target="#demo"></li>
+                            <li class="" data-slide-to="1" data-target="#demo"></li>
+                            <li class="active" data-slide-to="2" data-target="#demo"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <div class="row pt-0">
+                                    <div class="col-sm-6 col-md-6 col-xs-4 text-center">
+                                        <img alt="sign up" class="img-fluid px-lg-5 mx-xl-5" src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_1-02_kv3pcq.png">
+                                        <h2 class="">Sign Up</h2>
+                                        <p class="carousel-details">
+                                            Let us know what and where you want to learn. Let us handle the rest.
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 col-xs-4 text-center">
+                                        <img alt="request a tutor" class="img-fluid px-lg-5 mx-xl-5" src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_2-08_df6cy0.png">
+                                        <h2 class="">Request a Tutor</h2>
+                                        <p class="carousel-details">
+                                            We will provide you with a list of tutors that match your requirements. You get to pick which one you'd like to learn from
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row pt-0">
+                                    <div class="col-sm-6 col-md-6 col-xs-4 text-center">
+                                        <img alt="confirm tuition" class="img-fluid px-lg-5 mx-xl-5" src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_3_oiqp5p.png">
+                                        <h2 class="">Confirm Tuition</h2>
+                                        <p class="carousel-details">
+                                            After you've decided on your tutor, they will be notified and be given the chance to confirm or cancel the tuition offer
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6 text-center">
+                                        <img alt="start learning" class="img-fluid px-lg-5 mx-xl-5" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/step_4-02_n2xtbi.png">
+                                        <h2 class="">Start Learning</h2>
+                                        <p class="carousel-details">
+                                            That's literally it. Our work is done, and you're on your way to acing your exams!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <div class="row pt-0">
+                                    <div class="offset-lg-3 col-lg-6 col-sm-12 col-md-12 col-xs-4 text-center">
+                                        <img alt="feedback" class="img-fluid px-lg-5 mx-xl-5" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/step_5-02_msz3db.png">
+                                        <h2 class="">Feedback</h2>
+                                        <p class="carousel-details">
+                                            We want your feedback, so feel free to come back and leave your comments on your experience so that we can improve our services!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel slide d-block d-lg-none" data-interval="5000" data-pause="hover" data-ride="carousel" id="landing-carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li class="" data-slide-to="0" data-target="#landing-carousel"></li>
+                            <li class="" data-slide-to="1" data-target="#landing-carousel"></li>
+                            <li data-slide-to="2" data-target="#landing-carousel" class=""></li>
+                            <li data-slide-to="3" data-target="#landing-carousel" class="active"></li>
+                            <li data-slide-to="4" data-target="#landing-carousel" class=""></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <div class="row pt-0">
+                                    <div class="col-sm-12 text-center">
+                                        <img alt="sign up" class="img-fluid" src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_1-02_kv3pcq.png">
+                                        <h2 class=" carousel-content-title">Sign Up</h2>
+                                        <p class="carousel-details">
+                                            Let us know what and where you want to learn. Let us handle the rest.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row pt-0">
+                                    <div class="col-sm-12 text-center">
+                                        <img alt="request a tutor" class="img-fluid" src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_2-08_df6cy0.png">
+                                        <h2 class=" carousel-content-title">
+                                            Request a Tutor
+                                        </h2>
+                                        <p class="carousel-details">
+                                            We will provide you with a list of tutors that match your requirements. You get to pick which one you'd like to learn from.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row pt-0">
+                                    <div class="col-sm-12 text-center">
+                                        <img alt="confirm tuition" class="img-fluid" src="https://res.cloudinary.com/shojib/image/upload/v1578952247/yoda_branding/step_3_oiqp5p.png">
+                                        <h2 class=" carousel-content-title">
+                                            Confirm Tuition
+                                        </h2>
+                                        <p class="carousel-details">
+                                            After you've decided on your tutor, they will be notified and be given the chance to confirm or cancel the tuition offer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <div class="row pt-0">
+                                    <div class="col-sm-12 text-center">
+                                        <img alt="start learning" class="img-fluid" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/step_4-02_n2xtbi.png">
+                                        <h2 class=" carousel-content-title">Start Learning</h2>
+                                        <p class="carousel-details">
+                                            That's literally it. Our work is done, and you're on your way to acing your exams!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row pt-0">
+                                    <div class="offset-lg-3 col-lg-6 col-sm-12 col-md-12 col-xs-4 text-center">
+                                        <img alt="feedback" class="img-fluid" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/step_5-02_msz3db.png">
+                                        <h2 class=" carousel-content-title">Feedback</h2>
+                                        <p class="carousel-details">
+                                            We want your feedback, so feel free to come back and leave your comments on your experience so that we can improve our services!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- How yoda works section ends here -->
+                <!-- Join us section starts here -->
+                <section class="section4 mt-4 py-4">
+                    <div class="toptitle">
+                        <div class="section-header my-4 section-title text-center">
+                            Join us today
+                        </div>
+                        <center class="mb-4">
+                            Join our community of thousands of<br> students and tutors
+                        </center>
+                    </div>
+                    <div class="container my-4">
+                        <div class="row">
+                            <div class="col-md-6" id="left-img">
+                                <div class="become-tutor-img">
+                                    <img class="become-tutor-image" src="https://res.cloudinary.com/shojib/image/upload/v1578952248/yoda_branding/yoda_become_a_tutor_tnxx8i.png">
+                                    <a class="btn btn-default brand-yellow-button-with-border-hover" href="{{ 'signup/tutor/' | get_app_url }}" role="button">
+                                        Apply to become a tutor
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 " id="right-img">
+                                <div class="become-student-img">
+                                    <img class="become-student-image" src="https://res.cloudinary.com/shojib/image/upload/v1578952249/yoda_branding/yoda_sign_up_for_free_cbjbt4.png">
+                                    <a class="btn btn-default brand-green-button-with-border-hover" href="{{ 'signup/parent/' | get_app_url }}" role="button">
+                                        Sign up for free
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Join us section ends here -->
+            </div>
+        </section>
+
+        {% endblock %}
+
+        <!-- Footer section starts here -->
+        <section>
+            <!-- Footer starts here -->
+            <section class="section5 py-5">
+                <div class="container footer_container">
+                    <div class="row footer_li">
+                        <div class="col-6 col-md mt-3 mt-md-2">
+                            <h5>Yoda</h5>
+                            <li><a href="{% url 'landing:about' %}">About us</a> </li>
+                            <li> <a href="{% url 'landing:about' %}#contact">Contact us</a> </li>
+                            <li> <a href="{% url 'landing:how-it-works' %}">How it Works</a> </li>
+                            <!--
+                            <li> <a href="#">Online Tutoring</a></li>
+                            -->
+                        </div>
+                        <div class="col-6 col-md mt-3 mt-md-2">
+                            <h5>Parents</h5>
+                            <li> <a href="{{ 'login/parent/' | get_app_url }}">Log in</a> </li>
+                            <li> <a href="{{ 'signup/parent/' | get_app_url }}">Sign up</a> </li>
+                            <!--
+                            <li> <a href="javascript:void(0)">Parents FAQs</a> </li>
+                        -->
+                            <li> <a href="{% url 'landing:tips' %}">Tips For Parents</a> </li>
+                            <!--
+                            <li> <a href="javascript:void(0)">Online Tutoring FAQs</a> </li>
+                        -->
+                        </div>
+                        <div class="col-6 col-md mt-3 mt-md-2">
+                            <h5>Tutors</h5>
+                            <li> <a href="{{ 'login/tutor/' | get_app_url }}">Log in</a> </li>
+                            <li> <a href="{{ 'signup/tutor/' | get_app_url }}">Sign up</a> </li>
+                            <!--
+                            <li> <a href="">Tutor FAQs</a> </li>
+                        -->
+                            <li> <a href="{% url 'landing:tips' %}#for-tutors">Tips For Tutors</a> </li>
+                            <!--
+                            <li> <a href="">Online Tutoring FAQs</a> </li>
+                        -->
+                        </div>
+                        <div class="col-6 col-md mt-3 mt-md-2">
+                            <h5>Resources</h5>
+                            <li> <a href="{% url 'landing:terms-and-conditions' %}">Terms and Conditions</a> </li>
+                            <li> <a href="{% url 'landing:privacy-policy' %}">Privacy Policy</a> </li>
+                            <li> <a href="https://medium.com/@yodabd/" target="_blank">Blogs</a> </li>
+                        </div>
+                        <div class="col-12 col-md mt-3 mt-md-2 text-center text-md-left">
+                            <h5>Download our app</h5>
+                            <div class="row align-items-end">
+                                <div class="col-6 col-md-12  footer_img">
+                                    <a href="https://play.google.com/store/apps/details?id=com.yodabdeducation.yodabd_flutter"><img alt="android-app-download-img" src="https://res.cloudinary.com/yodabd/image/upload/v1570353939/Google_Play_Store_badge_EN_ftfojm.svg" class="img-responsive footer-logo w-75"></a>
+                                </div>
+                                <div class="col-6 col-md-12 footer_img">
+                                    <div><small class="text-white">Coming Soon</small></div>
+                                    <a href="javascript:void(0)"><img alt="apple-app-download-img" src="https://res.cloudinary.com/yodabd/image/upload/v1570353939/Download_on_the_App_Store_Badge_srxd4n.svg" class="img-responsive footer-logo w-75"></a>
+                                </div>
+                            </div>
+                            <div class="mt-4 mt-lg-3 text-center text-md-left">
+                                <h6 class="text-white text-center text-md-left mb-3 mb-md-2 mb-lg-2">Follow us</h6>
+                                <a href="https://www.facebook.com/yodaeducation/" target="_blank" class="text-white pr-5 pl-md-1 pr-md-3 pl-lg-0 pr-lg-4"><i class="fa fa-facebook fa-2x"></i></a>
+                                <a href="https://www.instagram.com/yoda.education/" target="_blank" class="text-white px-5 pl-md-1 pr-md-3 pl-lg-0 pr-lg-4"><i class="fa fa-instagram fa-2x"></i></a>
+                                <a href="https://www.youtube.com/channel/UCG-z-h1C2yNs1GKOpwdKY2w" target="_blank" class="text-white pl-5 pl-md-1 pl-lg-0"><i class="fa fa-youtube fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer ends here -->
+        </section>
+        <!-- Footer section ends here -->
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+        <!-- Popper js -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Cookie js -->
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
+        <!-- My scripts -->
+
+        <script type="text/javascript">
+            // Display links on navbar based on login status
+            var authCookie = Cookies.get('yoda_user_info');
+            if (authCookie) {
+                authCookie = JSON.parse(authCookie);
+                if (authCookie.user_type === 'parent') {
+                    $('.signed-in-parent').show();
+                }
+                if (authCookie.user_type === 'tutor') {
+                    $('.signed-in-tutor').show();
+                }
+            } else {
+                $('.not-signed-in').show();
+            }
+        </script>
+
+        <!-- Index script -->
+        {% block js %}
+        <script type="text/javascript">
+            // Getting the class filter data
+            const classFilterData = JSON.parse($('#classFilterData').val().replace(/'/g, '"'));
+            const classFilter = $('#class-filter');
+            const baseAppUrl = $('#baseAppUrl').val();
+
+            $('#subject-filter').change(function() {
+                let data = JSON.parse($(this).val().replace(/'/g, '"'));
+                let classes = [...new Set(data['classes'].sort())];
+
+                classFilter.removeAttr('disabled');
+
+                classFilter.empty();
+                classFilter.append('<option value="" disabled="disabled" selected="selected">Select your class</option>');
+
+                classes.forEach(function(value) {
+                    classFilter.append('<option value="['+ classFilterData[value] +']">' + value + '</option>');
+                });
+            });
+
+            // Function to redirect to the correct app page
+            function findATutor() {
+                $('#find-a-tutor').addClass('loading');
+
+                let subjectIDs = [];
+                let subjectName = "";
+                let classIDs = [];
+                let className = "";
+                let urlParams = [];
+
+                if ($('#subject-filter').val()) {
+                    subjectIDs = JSON.parse($('#subject-filter').val().replace(/'/g, '"'))['ids'];
+                    subjectName = $('#subject-filter option:selected').text();
+
+                    if ($('#class-filter').val()) {
+                        classIDs = JSON.parse($('#class-filter').val().replace(/'/g, '"'));
+                        className = $('#class-filter option:selected').text();
+
+                        // Find intersection
+                        subjectIDs = subjectIDs.filter(function(n) {
+                            return classIDs.indexOf(n) !== -1;
+                        });
+
+                        // Push class to urlParams
+                        urlParams.push('class=' + className);
+                    }
+
+                    // Push subjects to urlParams
+                    urlParams.unshift('subjects=' + subjectName);
+                    subjectIDs.forEach(function(id) {
+                        urlParams.unshift('offline_preferred_teaching_subjects=' + id);
+                    })
+                }
+
+                if ($('#area-filter').val()) {
+                    // Push area to urlParams
+                    urlParams.push('offline_preferred_teaching_areas=' + $('#area-filter').val());
+                }
+
+                // Join the urlParams
+                urlParams = urlParams.join('&');
+
+                // Redirect to the app page
+                window.location.href = baseAppUrl + 'tutor-list?' + urlParams;
+            }
+        </script>
+        {% endblock %}
+    </body>
+</html>

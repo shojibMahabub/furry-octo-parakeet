@@ -1,0 +1,625 @@
+[{
+    "id": 1,
+    "name": "Badda Alatunnessa Higher Secondary School"
+},{
+    "id": 2,
+    "name": "Satarkul School And College"
+},{
+    "id": 3,
+    "name": "National College"
+},{
+    "id": 4,
+    "name": "Rotnogorva Farida Zaman School And College"
+},{
+    "id": 5,
+    "name": "I.P.H School And College"
+},{
+    "id": 6,
+    "name": "Anowara Begum Muslim Girls School & College"
+},{
+    "id": 7,
+    "name": "Ahmed Bawany Academy School & College"
+},{
+    "id": 8,
+    "name": "B N College,Dhaka Nabik Colony"
+},{
+    "id": 9,
+    "name": "B A F Shaheen College Kurmitola"
+},{
+    "id": 10,
+    "name": "Balughat High School & College "
+},{
+    "id": 11,
+    "name": "Dhaka Cant: Girls Public School And College"
+},{
+    "id": 12,
+    "name": "Sahid Bir Uttam Anwar Girls"
+},{
+    "id": 13,
+    "name": "Bangladesh International School And College"
+},{
+    "id": 14,
+    "name": "Nabakumar Institution & Dr. Shahidullah College"
+},{
+    "id": 15,
+    "name": "Mollartek Udayan Mollartek"
+},{
+    "id": 16,
+    "name": "Mascot Innovative School And College"
+},{
+    "id": 17,
+    "name": "Kc Model School And College"
+},{
+    "id": 18,
+    "name": "Fm International School And College"
+},{
+    "id": 19,
+    "name": "Shamsul Hoque Khan School & College"
+},{
+    "id": 20,
+    "name": "Bamoil Ideal High School And College"
+},{
+    "id": 21,
+    "name": "Rafiqul Islam School And College"
+},{
+    "id": 22,
+    "name": "Dhamrai Hardinge High School And College"
+},{
+    "id": 23,
+    "name": "Afaz Uddin School And Colllege"
+},{
+    "id": 24,
+    "name": "Jarina Sikder Girls School And College"
+},{
+    "id": 25,
+    "name": "Y. W. C. A Higher Secondary Girls School"
+},{
+    "id": 26,
+    "name": "College Of Development Alternative (Coda)"
+},{
+    "id": 27,
+    "name": "Just International School & College"
+},{
+    "id": 28,
+    "name": "Begum Ayesha Pilot Girls' High School And College"
+},{
+    "id": 29,
+    "name": "Malikanda Meghula School And College"
+},{
+    "id": 30,
+    "name": "Banani Bidyaniketan School & College"
+},{
+    "id": 31,
+    "name": "Gulshan Model High School And College"
+},{
+    "id": 32,
+    "name": "Kalachadpur Uccha Maddamic Bddaloy"
+},{
+    "id": 33,
+    "name": "Cambrian School And College"
+},{
+    "id": 34,
+    "name": "Saleha High School And College"
+},{
+    "id": 35,
+    "name": "Salahuddin Ahmed Adarsha School And College"
+},{
+    "id": 36,
+    "name": "Mannan High School And College"
+},{
+    "id": 37,
+    "name": "Barnamala Adarsha Uchacha Madhyamik"
+},{
+    "id": 38,
+    "name": "Shaseed Zia Girla High School And College"
+},{
+    "id": 39,
+    "name": "Karatitola C.M.S. Memorial High School And College"
+},{
+    "id": 40,
+    "name": "Shyampur Model School And College"
+},{
+    "id": 41,
+    "name": "Bidhyalaya High School And College"
+},{
+    "id": 42,
+    "name": "B A F Shaheen College,Kafrul"
+},{
+    "id": 43,
+    "name": "Banophool Adibashi Green Heart College"
+},{
+    "id": 44,
+    "name": "S O S Herman Gmeiner College"
+},{
+    "id": 45,
+    "name": "Ati Bhawal Uchcha Madhamik Bidyalaya"
+},{
+    "id": 46,
+    "name": "Rajabari High School And College"
+},{
+    "id": 47,
+    "name": "Zinzira P M Pilot Higher Secondary School"
+},{
+    "id": 48,
+    "name": "Borishur Anchalic Uchcha Madyamic Bidyalaya"
+},{
+    "id": 49,
+    "name": "Baghapur High School & College"
+},{
+    "id": 50,
+    "name": "Keranigonj Girls' School And College"
+},{
+    "id": 51,
+    "name": "Khilgoan Govt. Colony"
+},{
+    "id": 52,
+    "name": "Ali Ahmed High School And College"
+},{
+    "id": 53,
+    "name": "Khilgoan Govt High School Dhaka"
+},{
+    "id": 54,
+    "name": "Dakhin Banasree Model High School And College"
+},{
+    "id": 55,
+    "name": " Khilgaon Girls School And Collage"
+},{
+    "id": 56,
+    "name": "Dhaka Ideal College "
+},{
+    "id": 57,
+    "name": "National Ideal College"
+},{
+    "id": 58,
+    "name": "Dhaka Eastern College"
+},{
+    "id": 59,
+    "name": "Quality Education College"
+},{
+    "id": 60,
+    "name": "Bangladesh Ideal School And College"
+},{
+    "id": 61,
+    "name": "Birshreshtha Noor Mohammad Public College"
+},{
+    "id": 62,
+    "name": "Govt. Azimpur Giris School & College"
+},{
+    "id": 63,
+    "name": "Agrani Girls School & College"
+},{
+    "id": 64,
+    "name": "Natun Polton Line Higher Secondary School"
+},{
+    "id": 65,
+    "name": "Rayhan School & College"
+},{
+    "id": 66,
+    "name": "Lalbagh Model School & College"
+},{
+    "id": 67,
+    "name": "Monipur Uccha Biddalaya & College"
+},{
+    "id": 68,
+    "name": "Bashir Uddin Ideal Higher Secondary School"
+},{
+    "id": 69,
+    "name": "Kallyanpur Girls School & College"
+},{
+    "id": 70,
+    "name": "Dhaka Shiksha Board Laboratory School & College "
+},{
+    "id": 71,
+    "name": "Sharoj International School And College"
+},{
+    "id": 72,
+    "name": "Green Field College"
+},{
+    "id": 73,
+    "name": "Mirpur Cantonment Public School And College Mirpur "
+},{
+    "id": 74,
+    "name": "Jamila Ayeenul Ananda Biddalay And College"
+},{
+    "id": 75,
+    "name": "Dhaka Residential Model"
+},{
+    "id": 76,
+    "name": "Kishalaya Girl'S School & College"
+},{
+    "id": 77,
+    "name": "Lalmatia Housing Society Uchcha Madhyamik Bidyalaya"
+},{
+    "id": 78,
+    "name": "Badsha Faisal Institute"
+},{
+    "id": 79,
+    "name": "Mohammadpur Gaznab"
+},{
+    "id": 80,
+    "name": "Firoza Bashar Ideal College"
+},{
+    "id": 81,
+    "name": "Winsome School & College"
+},{
+    "id": 82,
+    "name": "Sunway School And College"
+},{
+    "id": 83,
+    "name": "Ideal School & College"
+},{
+    "id": 84,
+    "name": "Motijheel Model High School And College"
+},{
+    "id": 85,
+    "name": "Motijheel Govt. Boy'S High School"
+},{
+    "id": 86,
+    "name": "Haider Ali High School And College"
+},{
+    "id": 87,
+    "name": "Bandura Holy Cross School And College"
+},{
+    "id": 88,
+    "name": "St. Euphrasies Girls High School And College"
+},{
+    "id": 89,
+    "name": "Nawabgonj Pilot High School And College"
+},{
+    "id": 90,
+    "name": "Nawabagon Pilot Uchcha Madyamic Balika Bidyalaya "
+},{
+    "id": 91,
+    "name": "Sholla Higher Secondary School"
+},{
+    "id": 92,
+    "name": "Govt. Laboratory High School And College"
+},{
+    "id": 93,
+    "name": "Mirpur Bangla Higher Secondary School"
+},{
+    "id": 94,
+    "name": "Mirpur Girl'S Ideal Labratory Institute"
+},{
+    "id": 95,
+    "name": "Dr. Mohammad Shahidullah Adarsha Uchcha Madyamic Bidyapith"
+},{
+    "id": 96,
+    "name": "Ahsania Mission School & College"
+},{
+    "id": 97,
+    "name": "Rajarbagh Police Line Uchcha Madyamic Bidyalaya"
+},{
+    "id": 98,
+    "name": "National Bank Public School And College"
+},{
+    "id": 99,
+    "name": "Viqarunnisa Noon School & College"
+},{
+    "id": 100,
+    "name": "Willes Little Flower School And College"
+},{
+    "id": 101,
+    "name": "Ispahani Girls School And College"
+},{
+    "id": 102,
+    "name": "Siddeswari Boys High School"
+},{
+    "id": 103,
+    "name": "Biam Model School And College "
+},{
+    "id": 104,
+    "name": "Rupnagar Model School And College"
+},{
+    "id": 105,
+    "name": "Aere School And College"
+},{
+    "id": 106,
+    "name": "Gazirchat A.M. High School And College"
+},{
+    "id": 107,
+    "name": "Bhakurta Union High School And College"
+},{
+    "id": 108,
+    "name": "Mohammad Ali Yeakub Ali Bhakurta Union High School"
+},{
+    "id": 109,
+    "name": "Ful Baria School And College"
+},{
+    "id": 110,
+    "name": "Baikal School & College Ujampur"
+},{
+    "id": 111,
+    "name": "Anwara -Mannaf Girls School And College"
+},{
+    "id": 112,
+    "name": "Akij Foundation School And College"
+},{
+    "id": 113,
+    "name": "Uttara Girls High School"
+},{
+    "id": 114,
+    "name": "Nawab Habibullah Model School And College"
+},{
+    "id": 115,
+    "name": "I.E.S.Uchcha Madyanic Bidyalaya"
+},{
+    "id": 116,
+    "name": "Rajuk Uttara Model College"
+},{
+    "id": 117,
+    "name": "Sristy Central School And College"
+},{
+    "id": 118,
+    "name": "Dhaka Megacity College"
+},{
+    "id": 119,
+    "name": "Uttara Residential School & College"
+},{
+    "id": 120,
+    "name": "Wide Vision School And College"
+},{
+    "id": 121,
+    "name": "Uttara High School And College"
+},{
+    "id": 122,
+    "name": "Milestone College"
+},{
+    "id": 123,
+    "name": "Holy Child School & College"
+},{
+    "id": 124,
+    "name": "Halima Girls School And College"
+},{
+    "id": 125,
+    "name": "Kabi Jasim Uddin School And College"
+},{
+    "id": 126,
+    "name": "Ashulia Uchha Madhyamic Bidhalaya Ashulia"
+},{
+    "id": 127,
+    "name": "Savar Cantonment Public School And College"
+},{
+    "id": 128,
+    "name": "Jahangirnagar University School & College "
+},{
+    "id": 129,
+    "name": "Mafid-E-Am School & College"
+},{
+    "id": 130,
+    "name": "Doshaid Adhonya Kumar A K Public School And College"
+},{
+    "id": 131,
+    "name": "St.Jhosephs High School And College"
+},{
+    "id": 132,
+    "name": "Bangladesh Krira Shikkha Protishtan Zirani"
+},{
+    "id": 133,
+    "name": "Bcic College"
+},{
+    "id": 134,
+    "name": "Udayan Uchcha Madyamik Bidyalaya"
+},{
+    "id": 135,
+    "name": "Engineering University School & College"
+},{
+    "id": 136,
+    "name": "Universiti Laboratory School And College "
+},{
+    "id": 137,
+    "name": "Madartek Abdul Aziz Uchcha Madhyamik Bidyalya"
+},{
+    "id": 138,
+    "name": "Kamalapur School"
+},{
+    "id": 139,
+    "name": "City Model School And College 20 Mayakanon, Atish"
+},{
+    "id": 140,
+    "name": "Sher E Bangla Nagar Govt. Boys High School Sher-E-Bangla Nagar"
+},{
+    "id": 141,
+    "name": "Agargaontaltala Govt.Colony High School & Mohila College"
+},{
+    "id": 142,
+    "name": "Shere Bangla Nogor Govt.Girls School & College"
+},{
+    "id": 143,
+    "name": "Nazneen High School And College"
+},{
+    "id": 144,
+    "name": "East Bengal Institution And College"
+},{
+    "id": 145,
+    "name": "Moniza Rahman Girls High School And College"
+},{
+    "id": 146,
+    "name": "K.L. Jubilee School And College"
+},{
+    "id": 147,
+    "name": "Cosmopolitan Labratory School And College"
+},{
+    "id": 148,
+    "name": "Tejgaon Adarsha School And College"
+},{
+    "id": 149,
+    "name": "Baikal School & College Ujampur"
+},{
+    "id": 150,
+    "name": "Anwara -Mannaf Girls School And College"
+},{
+    "id": 151,
+    "name": "Akij Foundation School And College"
+},{
+    "id": 152,
+    "name": "Uttara Girls High School "
+},{
+    "id": 153,
+    "name": "Nawab Habibullah Model School And College"
+},{
+    "id": 154,
+    "name": "I.E.S.Uchcha Madyanic Bidyalaya"
+},{
+    "id": 155,
+    "name": "Rajuk Uttara Model College "
+},{
+    "id": 156,
+    "name": "Sristy Central School And College"
+},{
+    "id": 157,
+    "name": "Dhaka Megacity College"
+},{
+    "id": 158,
+    "name": "Uttara Residential School & College "
+},{
+    "id": 159,
+    "name": "Wide Vision School And College"
+},{
+    "id": 160,
+    "name": "Uttara High School And College"
+},{
+    "id": 161,
+    "name": "Milestone College"
+},{
+    "id": 162,
+    "name": "Holy Child School & College"
+},{
+    "id": 163,
+    "name": "Sher-E-Bangla Balika Mahavidyalaya"
+},{
+    "id": 164,
+    "name": "Halima Girls School And College"
+},{
+    "id": 165,
+    "name": "Kabi Jasim Uddin School And College"
+},{
+    "id": 166,
+    "name": "Aral G.L. School And College"
+},{
+    "id": 167,
+    "name": "Taraganj H. N. Uccha Madhyamic Bidylaya"
+},{
+    "id": 168,
+    "name": "Mawna Chowrasta Creative School And College"
+},{
+    "id": 169,
+    "name": "Nesaruddin Talukder Uchcha Madyamic Bidyalaya"
+},{
+    "id": 170,
+    "name": "Udyan Bidya Pith Higher Secondary School"
+},{
+    "id": 171,
+    "name": "Sheikh Hasina Girls High School And College"
+},{
+    "id": 172,
+    "name": "Moulovi Abdul Hye Memorial School And College"
+},{
+    "id": 173,
+    "name": "Khan Saheb Shaikh Mosharrof Hossain School & College"
+},{
+    "id": 174,
+    "name": "Chandrabaz Rashida Begum School And College"
+},{
+    "id": 175,
+    "name": "Shaheed Brigadear Khaled Musharraf Girls High School"
+},{
+    "id": 176,
+    "name": "Islampur J.J.K.M. Girls High School And College"
+},{
+    "id": 177,
+    "name": "Guthail Uchcha Madymic Bidyalaya"
+},{
+    "id": 178,
+    "name": "Rahima Mozaffar Ideal Girls School And College"
+},{
+    "id": 179,
+    "name": "Hazrat Shah Jamal (R) School And College Pahtalyea"
+},{
+    "id": 180,
+    "name": "Abdul Hamid Khan High School And College"
+},{
+    "id": 181,
+    "name": "Nurundi Uchcha Madhyamik Bidyalaya"
+},{
+    "id": 182,
+    "name": "Pearpur Moharaja Sashikanta High School And College"
+},{
+    "id": 183,
+    "name": "Nabba Char High School And College"
+},{
+    "id": 184,
+    "name": "Tegharia Shahed Ali High Cshool & College"
+},{
+    "id": 185,
+    "name": "Shehata Gamiz Uddin High School And College"
+},{
+    "id": 186,
+    "name": "Pilot Uccha Madhyamik Balika Bidyalaya"
+},{
+    "id": 187,
+    "name": "Jomuna Sarkarkhana Higher Secondary School"
+},{
+    "id": 188,
+    "name": "Bhatara Uchcha Madhyamik Bidyalay"
+},{
+    "id": 189,
+    "name": "Bajitpur Razzakunessa Pilot Girls College"
+},{
+    "id": 190,
+    "name": "Aftab Uddin School And College"
+},{
+    "id": 191,
+    "name": "Zillur Rahman School And College"
+},{
+    "id": 192,
+    "name": "Hazi Zillur Rahman School And College"
+},{
+    "id": 193,
+    "name": "Hossainpur Model Pilot School & College"
+},{
+    "id": 194,
+    "name": "Chatal Baghata School And College"
+},{
+    "id": 195,
+    "name": "Tahera Noor High School And College"
+},{
+    "id": 196,
+    "name": "Charteki Girls School And College"
+},{
+    "id": 197,
+    "name": "Jangalia Union Uchcha Madhyamik School & College"
+},{
+    "id": 198,
+    "name": "D.K.Ideal Syed Atahar Ali Academy & College"
+},{
+    "id": 199,
+    "name": "Asmot Ali Khan Public School And College"
+},{
+    "id": 200,
+    "name": "Shireen Jahan Memorial School & College"
+},{
+    "id": 201,
+    "name": "Rajore Gopalganj K.J.S Pilot Institution And College"
+},{
+    "id": 202,
+    "name": "Takerhat Popular High School"
+},{
+    "id": 203,
+    "name": "Shahid Sardar Sajahan Girls School & College"
+},{
+    "id": 204,
+    "name": "Baniajuri Union School"
+},{
+    "id": 205,
+    "name": "Rawan Ibne Ramzan School And College"
+},{
+    "id": 206,
+    "name": "Baluakandi Dr Abdul Gaffar School And College"
+},{
+    "id": 207,
+    "name": "Bangladesh international tutorial school"
+},{
+    "id": 208,
+    "name": "Scholastica school"
+}]

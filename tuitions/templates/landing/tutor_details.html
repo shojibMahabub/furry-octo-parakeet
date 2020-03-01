@@ -1,0 +1,53 @@
+{% load static %}
+{% load app_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>{{ tutor.full_name }} - Yoda</title>
+        <link rel="icon" href="https://res.cloudinary.com/shojib/image/upload/v1578952246/yoda_branding/logo_square_h1tjdw.png">
+        <!-- Open graph -->
+        <meta property="fb:app_id" content="485359748734810">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://www.yodabd.com">
+        <meta property="og:title" content="{{ tutor.full_name }} - Yoda">
+        <meta property="og:description" content="{{ tutor.about }}">
+        <meta property="og:image" content="{{ tutor.display_picture }}">
+
+        <!-- SEO -->
+        <meta name="description" content="{{ tutor.about }}">
+        <meta name="author" content="Yoda">
+        <meta name="keywords" content="Yoda, Tutors, Bangladesh, BD, Dhaka, Parents, Teachers, Tuitions, Spring Tutors, Caretutors">
+    </head>
+    <body>
+        <!-- Base app URL -->
+        <input type="text" value="{{ '' | get_app_url }}" type="hidden" id="baseAppUrl" style="position: absolute; visibility: hidden;">
+
+        <!-- Tutor UUID -->
+        <input type="text" value="{{ tutor.uuid }}" type="hidden" id="tutorUUID" style="position: absolute; visibility: hidden;">
+
+        <!-- Hidden content start -->
+        <div>
+            <h1 style="visibility: hidden;">
+                {{ tutor.full_name }}
+            </h1>
+            <p style="visibility: hidden;">
+                {{ tutor.about }}
+            </p>
+        </div>
+        <!-- Hidden content end -->
+
+        <!-- Redirecting to the app page -->
+        <script type="text/javascript">
+            const baseAppUrl = document.getElementById('baseAppUrl').value;
+            const tutorUUID = document.getElementById('tutorUUID').value;
+
+            // Redirect to the app page
+            window.location.href = baseAppUrl + 'tutor-profile/' + tutorUUID;
+        </script>
+    </body>
+</html>

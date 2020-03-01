@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lato font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500,700&display=swap" rel="stylesheet">
+    <script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://scripts.pay.bka.sh/versions/1.2.0-beta/checkout/bKash-checkout.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.css"
+          integrity="sha256-JHRpjLIhLC03YGajXw6DoTtjpo64HQbY5Zu6+iiwRIc=" crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"
+            integrity="sha256-7OUNnq6tbF4510dkZHCRccvQfRlV3lPpBTJEljINxao=" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    * {
+        font-family: "Lato", sans-serif;
+    }
+
+    body {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.65) !important;
+        margin: 0;
+    }
+
+    .center {
+        height: 200px;
+        position: relative;
+
+    }
+
+    .h1, h1 {
+        font-size: 2.5rem
+    }
+
+    .h2, h2 {
+        font-size: 2rem
+    }
+
+    .h3, h3 {
+        font-size: 1.75rem
+    }
+
+    .h4, h4 {
+        font-size: 1.5rem
+    }
+
+    .h5, h5 {
+        font-size: 1.25rem
+    }
+
+    .h6, h6 {
+        font-size: 1rem
+    }
+
+
+    .center button {
+        margin: 0;
+        position: absolute;
+        color: #AE2369;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .premium-feature-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .premium-feature-wrapper .premium-feature-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 520px;
+        padding: 1rem;
+    }
+
+    .premium-feature-wrapper .premium-feature-container #bKash_button {
+        display: block;
+        width: 100%;
+        background-color: #ffcd02 !important;
+        border: #ffcd02 !important;
+        height: 40px;
+        padding: 0 15px;
+        font-size: 16px;
+        border-radius: 4px;
+        position: relative;
+    }
+
+    .premium-feature-wrapper .premium-feature-container #bKash_button:hover {
+        background-color: #ffd800 !important;
+    }
+
+    .font-weight-bold {
+        font-weight: bold !important;
+    }
+
+    .font-size-18 {
+        font-size: 18px !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .py-3 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .my-4 {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #e8e8e8 !important;
+    }
+
+    .w-100 {
+        width: 100% !important;
+    }
+
+    .m-loader:before {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-top: -.7rem;
+        margin-left: -.7rem;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        content: '';
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        border-top: 2px solid #000000;
+        border-right: 2px solid transparent;
+        border-radius: 50%;
+        -webkit-animation: m-loader-rotate 0.6s linear infinite;
+        animation: m-loader-rotate 0.6s linear infinite;
+    }
+
+    @keyframes m-loader-rotate {
+        to {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+        }
+    }
+    .swal2-container{
+        z-index: 50100;
+    }
+    .discount-container{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .before-discount-price-strike{
+        height: 3px !important;
+        width: 200px !important;
+        background: #ff0000a1 !important;
+        min-width: 200px !important;
+        top: 60% !important;
+        transform: rotate(5deg);
+        margin: 0 !important;
+        position: absolute;
+    }
+</style>
+
+<body>
+
+<div class="premium-feature-wrapper">
+    <div class="premium-feature-container">
+        <img src="https://res.cloudinary.com/shojib/image/upload/v1577188974/static/text-premium.png"
+             style="max-width: 300px"/>
+
+        <div class="discount-container">
+          <h3 class="font-weight-bold text-center mb-2" style="color: #00aeb3; margin-bottom: 16px;">700<sup><span class="font-size-18">TK</span></sup> / <span class="font-size-18"> 3 months</span></h3>
+          <div class="before-discount-price-strike"> </div>
+        </div>
+        <h1 class="font-weight-bold text-center" style="color: rgb(0, 174, 179); margin-top: 0px;">350<sup><span
+                class="font-size-18">TK</span></sup> / <span class="font-size-18"> 3 months</span></h1>
+
+        <h5 class="text-left" >With a premium account you can apply to the following number of jobs (among other
+            benefits)!</h5>
+
+        <table class="w-100 my-4 font-size-18 font-weight-bold" style="border-collapse: collapse;">
+            <tbody>
+            <tr class="border-bottom">
+                <td class="py-3">Hot jobs</td>
+                <td class="text-right"> 10/month <small>(Maximum)</small></td>
+            </tr>
+            <tr>
+                <td class="py-3">Direct requests</td>
+                <td class="text-right"> 5/month <small>(Maximum)</small></td>
+            </tr>
+            </tbody>
+        </table>
+        <button type="button" id="bKash_button">Purchase with bKash</button>
+        <small style="margin-top: 5px;">You can purchase with any bKash number</small>
+
+    </div>
+</div>
+<script>
+  let imageLink = null
+
+  function openOrClosePremiumDialog (data) {
+    ModalCloseOrOpen.postMessage(data)
+  }
+
+  function paymentSuccessStatus (data) {
+    PaymentSuccessStatus.postMessage(data)
+  }
+
+  function getBkashData (data) {
+
+    let bKashData = JSON.parse(data)
+
+    var paymentConfig = {
+      createCheckoutURL: `${bKashData.apiBaseUrl}/bkash-create-payment/`,
+      executeCheckoutURL: `${bKashData.apiBaseUrl}/bkash-execute-payment/`,
+    }
+
+    var paymentID = ''
+    bKash.init({
+      paymentMode: 'checkout', //fixed value ‘checkout’
+      paymentRequest: {
+        amount: 350, //max two decimal points allowed
+        intent: 'sale'
+      },
+      createRequest: function (request) {
+
+        openOrClosePremiumDialog(false)
+        request.package_id = $('#bKash_button').data('package-id')
+        $('#bKash_button').addClass('m-loader')
+        $.ajax({
+          url: paymentConfig.createCheckoutURL,
+          type: 'POST',
+          headers: bKashData.headers,
+
+          contentType: 'application/json',
+          success: function (data) {
+            // data = JSON.parse(data);
+            $('#bKash_button').removeClass('m-loader')
+            if (data && data.paymentID != null) {
+              paymentID = data.paymentID
+              bKash.create().onSuccess(data)
+            } else {
+
+              bKash.create().onError()
+              $('#bKash_button').removeAttr("disabled");
+              openOrClosePremiumDialog(true)
+            }
+          },
+          error: function () {
+            bKash.create().onError()
+            $('#bKash_button').removeAttr("disabled");
+              openOrClosePremiumDialog(true)
+          }
+        })
+      },
+      executeRequestOnAuthorization: function () {
+        $.ajax({
+          url: paymentConfig.executeCheckoutURL,
+          type: 'POST',
+          headers: bKashData.headers,
+          contentType: 'application/json',
+          data: JSON.stringify({
+            'paymentID': paymentID
+          }),
+          success: function (data) {
+            if (data && data.paymentID != null) {
+
+              Swal.fire({
+                type: 'success',
+                title: 'Payment successful',
+                confirmButtonColor: '#00aeb3'
+              }).then(function () {
+
+                paymentSuccessStatus(true)
+                document.getElementById('close_button').click()
+
+              })
+              setTimeout(function(){
+                  document.getElementById('close_button').click()
+                  }, 10);
+
+
+            } else if (data && data.errorMessage) {
+              Swal.fire({
+                type: 'error',
+                title: 'Oops!',
+                html: '<strong>bKash says:</strong> <br>' + data.errorMessage,
+                confirmButtonColor: '#00aeb3'
+              }).then(function () {
+                bKash.execute().onError()
+              })
+              bKash.execute().onError()
+              $('#bKash_button').removeAttr("disabled");
+              openOrClosePremiumDialog(true)
+            } else {
+              bKash.execute().onError()
+              $('#bKash_button').removeAttr("disabled");
+              openOrClosePremiumDialog(true)
+            }
+          },
+          error: function () {
+            bKash.execute().onError()
+          }
+        })
+      },
+      onClose: function () {
+        $('#bKash_button').removeClass('m-loader')
+        openOrClosePremiumDialog(true)
+        $('#bKash_button').removeAttr("disabled");
+      }
+    })
+
+  }
+  $('#bKash_button').click(function () {
+    $('#bKash_button').attr("disabled", true).addClass('m-loader');
+  })
+
+</script>
+
+
+</body>
+</html>
